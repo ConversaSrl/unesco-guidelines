@@ -98,5 +98,9 @@ In order to overcome some of these challenges, researchers can:
 • Where possible, conduct field studies in familiar but neutral and distraction-free spaces, where participants can feel freer to provide honest responses.
 
 
-
+{% include linkbox.html
+title="Title"
+subtitle="Subtitle"
+section="Section" 
+%}
 <div style="width: 600px; height: 600px; background-color: yellow;">NEXT</div>
