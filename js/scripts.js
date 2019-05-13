@@ -1,7 +1,8 @@
 $( document ).ready(function() {
 
-    $(".section-link a").mouseenter(function (e) {
+    $(".section-menu a").mouseenter(function (e) {
         e.preventDefault();
+        $("#toc-panel").css("width", $(".container").width() + "px");
         $(".toc-panel").show();
         $(".toc-section").hide();
         $("div[data-section-title='" + $(this).html() + "']").show();

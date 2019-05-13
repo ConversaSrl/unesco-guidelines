@@ -28,12 +28,18 @@
 
                 {% for entry in topnav.topnav %}
                 {% for item in entry.items %}
+
+                {% assign section_classes = "section-link" %}
+                {% if item.submenu == true %}
+                {% assign section_classes = "section-link section-menu" %}
+                {% endif %}
+
                 {% if item.external_url %}
                 <li><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
                 {% elsif page.url contains item.url %}
-                <li class="section-link active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                <li class="{{section_classes}} active"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
                 {% else %}
-                <li class="section-link"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+                <li class="{{section_classes}}"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
                 {% endif %}
                 {% endfor %}
                 {% endfor %}

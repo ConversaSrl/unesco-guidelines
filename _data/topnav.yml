@@ -5,12 +5,17 @@ topnav:
   items:
   - title: Introduction
     url: /en-introduction-00-home.html
+    submenu: false
   - title: Rationale
     url: /en-rationale-00-home.html
+    submenu: false
   - title: Guidelines
     url: /en-guidelines-00-home.html
+    submenu: true
   - title: Conclusion
     url: /en-conclusion-00-home.html
+    submenu: false
+    
 #    - title: GitHub
 #      external_url: https://github.com/tomjoht/documentation-theme-jekyll
 #    - title: News
