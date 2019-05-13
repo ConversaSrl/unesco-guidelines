@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+{% assign post-header-classes = "" %}
+{% assign content_col_size = "col-md-12" %}
+{% assign content_col_size_extra = "" %}
+
+{% if page.guidelines-background != null %}
+{% assign post-header-classes = "post-header-with-background" %}
+{% assign content_col_size = "col-md-8" %}
+{% assign content_col_size_extra = "col-md-4" %}
+{% endif %}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="post-header {{ post-header-classes }}">
+            <div class="post-title-step">{{ page.guidelines-step }}.</div>
+            <div class="post-title-section">{{ page.guidelines-section }}</div>
+            <div class="post-title-main">{{ page.title }}</div>
+            {% if page.feature-img %}
+            <img class="feature-image" src={{ page.feature-img }} alt="Feature Image" style="margin: 0 0 10px 0 !important" />
+            {% endif %}
+
+            {% if page.guidelines-background != null %}
+            <p class="next-step">
+                <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">NEXT</span>{{ page.guidelines-next-label }}</a>
+            </p>
+            <div class="scroll-widget">
+                <div class="scroll-widget-label">SCROLL DOWN</div>
+                <div id="scrollGauge" class="gauge-container scroll-widget-gauge"></div>
+                <i class="scroll-widget-chevron fa fa-chevron-down fa-lg"></i>
+            </div>
+            {% endif %}
+        </div>
+
+        {% if page.simple_map == true %}
+        
+        <script>
+            $(document).ready ( function(){
+                $('.box{{page.box_number}}').addClass('active');
+            });
+        </script>
+        
+        {% include custom/{{page.map_name}}.html %}
+        
+        {% elsif page.complex_map == true %}
+        
+        <script>
+            $(document).ready ( function(){
+                $('.modalButton{{page.box_number}}').addClass('active');
+            });
+        </script>
+        
+        {% include custom/{{page.map_name}}.html %}
+        
+        {% endif %}
+
+        {% if page.summary %}
+        <div class="summary {{ post-header-classes }}">{{page.summary}}</div>
+        {% endif %}
+
+        {% if page.guidelines-background == null %}
+        {% if page.guidelines-next-label %}
+        <a class="next-step-btn" href="{{ page.guidelines-next-link }}">{{ page.guidelines-next-label }}</a>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+
+<div class="row">
+
+    {% if content_col_size_extra != "" %}
+    <div class="{{content_col_size_extra}}"></div>
+    {% endif %}
+
+    <div class="{{content_col_size}}" id="tg-sb-content">
+        <div class="post-content">
+
+            {{content}}
+         
+             <div class="tags">
+                 {% if page.tags != null %}
+                 <b>Tags: </b>
+                 {% assign projectTags = site.data.tags.allowed-tags %}
+                 {% for tag in page.tags %}
+                 {% if projectTags contains tag %}
+                 <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+                 {% endif %}
+                 {% endfor %}
+                 {% endif %}
+             </div>
+         
+         </div>
+    </div>
+</div>
+
+
+{{site.data.alerts.hr_shaded}}
+
+{% include footer.html %}

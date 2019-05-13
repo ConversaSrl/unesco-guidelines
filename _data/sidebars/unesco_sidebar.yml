@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Guidelines
+  version: 3
+  folders:
+
+  # - title:
+  #   output: pdf
+  #   type: frontmatter
+  #   folderitems:
+  #   - title:
+  #     url: /titlepage.html
+  #     output: pdf
+  #     type: frontmatter
+  #   - title:
+  #     url: /tocpage.html
+  #     output: pdf
+  #     type: frontmatter
+  
+  - title: Introduction
+    guidelines-subtitle: "Introduction"
+    url: en-introduction-00-home.html
+    output: web, pdf
+    folderitems:
+
+    - title: "Home"
+      url: /en-introduction-00-home.html
+      output: web, pdf
+  
+  - title: Guidelines
+    guidelines-subtitle: "Guidelines for Designing Inclusive Digital Solutions and Developing Digital Skills"
+    guidelines-overview: /en-guidelines-overview.html
+    output: web, pdf
+    folderitems:
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "01"
+      output: web, pdf
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "02"
+      output: web, pdf
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "03"
+      output: web, pdf
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "04"
+      output: web, pdf
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "05"
+      output: web, pdf
+
+    - title: "Design with all the users, focusing on their needs and context"
+      url: /en-guidelines-01-design.html
+      guidelines-step: "06"
+      output: web, pdf
+
+    
