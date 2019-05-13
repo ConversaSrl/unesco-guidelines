@@ -5,9 +5,15 @@
   {% for entry in sidebar %}
   {% for folder in entry.folders %}
   {% if folder.output contains "web" %}
+
+  {% assign overview_label = "OVERVIEW" %}
+  {% if page.lang == "it" %}
+  {% assign overview_label = "PANORAMICA" %}
+  {% endif %}
+
   <div class="toc-section" data-section-title="{{ folder.title }}">
       <span class="toc-section-title">{{ folder.guidelines-subtitle }}</span>
-      <a class="toc-section-overview" href="{{ folder.guidelines-overview }}">OVERVIEW</a>
+      <a class="toc-section-overview" href="{{ folder.guidelines-overview }}">{{ overview_label }}</a>
       <ul>
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}

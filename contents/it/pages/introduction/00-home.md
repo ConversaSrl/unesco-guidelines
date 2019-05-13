@@ -1,14 +1,13 @@
 ---
-permalink: en-guidelines-01-design.html
-sidebar: unesco_sidebar
+permalink: it-introduction-00-home.html
 guidelines-section: "guidelines"
-guidelines-background: "background-01.jpg"
-title: Design with all the users, focusing on their needs and context
-summary: "For designers and developers of solutions for users with low levels of digital skills and literacy, it is crucial to gain a deep understanding of the target users and follow proven practices to design with – not for – them, in a manner sensitive to the particular challenges. If digital solutions are not driven by real needs and motivations, and are not appropriate to users’ contexts, they will not be relevant, usable and beneficial."
-guidelines-step: "01"
-guidelines-next-step: "02"
-guidelines-next-label: "Focus on users' digital skills and competences"
-guidelines-next-link: en-guidelines-02-focus.html
+# guidelines-background: "background-01.jpg"
+title: Designing Inclusive Digital Solutions and Developing Digital Skills
+summary: "In an increasingly online world, people need digital skills and literacy to work, live, learn and communicate productively. Without these skills, people face marginalisation not only in the physical world but in digital realms as well. Fortunately, digital exclusion is increasingly avoidable."
+# guidelines-step: "01"
+# guidelines-next-step: "02"
+guidelines-next-label: "Go to Guidelines"
+guidelines-next-link: it-guidelines-01-design.html
 ---
 
 

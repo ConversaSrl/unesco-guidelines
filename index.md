@@ -1,6 +1,5 @@
 ---
 permalink: index.html
-sidebar: unesco_sidebar
 # guidelines-section: "guidelines"
 # guidelines-background: "background-01.jpg"
 title: UNESCO Guidelines
@@ -11,4 +10,8 @@ guidelines-next-label: "Go to Guidelines"
 guidelines-next-link: en-introduction-00-home.html
 ---
 
-home. redirect to correct language page basing on browser?
+
+Scegli una versione:
+
+[ENGLISH](en-introduction-00-home.html)
+[ITALIANO](it-introduction-00-home.html)

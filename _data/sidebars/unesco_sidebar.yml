@@ -32,7 +32,7 @@ entries:
   
   - title: Guidelines
     guidelines-subtitle: "Guidelines for Designing Inclusive Digital Solutions and Developing Digital Skills"
-    guidelines-overview: /en-guidelines-overview.html
+    guidelines-overview: /en-guidelines-00-home.html
     output: web, pdf
     folderitems:
 

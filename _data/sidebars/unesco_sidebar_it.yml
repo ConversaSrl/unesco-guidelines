@@ -1,0 +1,69 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Guidelines
+  version: 3
+  folders:
+
+  # - title:
+  #   output: pdf
+  #   type: frontmatter
+  #   folderitems:
+  #   - title:
+  #     url: /titlepage.html
+  #     output: pdf
+  #     type: frontmatter
+  #   - title:
+  #     url: /tocpage.html
+  #     output: pdf
+  #     type: frontmatter
+  
+  - title: Introduzione
+    guidelines-subtitle: "Introduction"
+    url: it-introduction-00-home.html
+    output: web, pdf
+    folderitems:
+
+    - title: "Home"
+      url: /it-introduction-00-home.html
+      output: web, pdf
+  
+  - title: Linee Guida
+    guidelines-subtitle: "Linee guida per aeiou"
+    guidelines-overview: /it-guidelines-00-home.html
+    output: web, pdf
+    folderitems:
+
+    - title: "Link Italiano 1"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "01"
+      output: web, pdf
+
+    - title: "Link Italiano 2"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "02"
+      output: web, pdf
+
+    - title: "Link Italiano 3"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "03"
+      output: web, pdf
+
+    - title: "Link Italiano 4"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "04"
+      output: web, pdf
+
+    - title: "Link Italiano 5"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "05"
+      output: web, pdf
+
+    - title: "Link Italiano 6"
+      url: /it-guidelines-01-design.html
+      guidelines-step: "06"
+      output: web, pdf
+
+    

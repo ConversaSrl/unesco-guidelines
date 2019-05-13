@@ -72,11 +72,23 @@ defaults:
       path: ""
       type: "pages"
     values:
+      lang: en
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: unesco_sidebar
       topnav: topnav
+  -
+    scope:
+      path: "contents/it"
+      type: "pages"
+    values:
+      lang: it
+      layout: "page"
+      comments: true
+      search: true
+      sidebar: unesco_sidebar_it
+      topnav: topnav_it
   -
     scope:
       path: ""
@@ -95,14 +107,13 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: unesco_sidebar
       topnav: topnav
 
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
-- pubcoder_sidebar
-- shelf_sidebar
+- unesco_sidebar
 
 description: "Unesco Guidelines"
 # the description is used in the feed.xml file
