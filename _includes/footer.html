@@ -1,9 +1,24 @@
 <footer>
-            <div class="row">
-                <div class="col-lg-12 footer">
+    <div class="footer-title"><span class="white">Guidelines for</span> Designing Inclusive Digital Solutions and Developing Digital Skills</div>
+    <div class="footer-sections">
+        <p>SECTIONS</p>
+        <ul>
+            {% assign topnav = site.data[page.topnav] %}
+            {% for entry in topnav.topnav %}
+            {% for item in entry.items %}
+            <li class="section-link"><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="footer-text">Irure voluptate labore sint duis duis nisi pariatur ullamco ea. Cupidatat anim eiusmod ea laborum officia voluptate magna deserunt tempor minim. Nisi in duis anim nisi eiusmod Lorem. Ullamco mollit excepteur magna non irure labore culpa irure ut sit veniam do id. Sunt ipsum ad proident eiusmod id. Exercitation pariatur minim aliqua aliquip. Consectetur voluptate consequat eu eu quis veniam ut.</div>
+    <div class="footer-partners">
+        <p>IN PARTNERSHIP WITH</p>
+        <img src="images/footer-logo.png" />
+    </div>
+                <!-- <div class="col-lg-12 footer">
                &copy;{{ site.time | date: "%Y"  }} {{site.company_name}}. All rights reserved. <br />
 {% if page.last_updated %}<span>Page last updated:</span> {{page.last_updated}}<br/>{% endif %} Site last generated: {{ site.time | date: "%b %-d, %Y"  }} <br />
 <p><img src="{{ "images/company_logo.png" }}" alt="Company logo"/></p>
-                </div>
-            </div>
+                </div> -->
 </footer>
