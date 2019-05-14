@@ -87,21 +87,6 @@ body {
     src: url(fonts/ROBOTO-BLACKITALIC.TTF);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-h3 {color: #ED1951; }
-h4 {color: #808080; }
-
 /* .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #ED1951;
     color: white;
@@ -273,6 +258,21 @@ body {
     line-height: 33px;
 }
 
+h3, .h3 {
+    color: #0077D4;
+    font-family: Roboto;
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+h4, .h4 {
+    color: #808080; 
+}
+
 h5, .h5 {
     padding-top: 0px !important;
     margin-top: 10px !important;
@@ -280,6 +280,16 @@ h5, .h5 {
     font-size: 16px !important;
     font-weight: 600;
 }
+
+.toplogo {
+    width: 155px; height: 53px; margin-top: 70px; margin-bottom: 11px
+}
+@media (max-width: 767px) {
+    .toplogo {
+        margin-left: 12px;
+    }
+}
+
 
 #toc {
     margin-bottom: 40px;
@@ -299,8 +309,8 @@ h5, .h5 {
 .post-content p > img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: auto;
     display: block;
 }
@@ -527,7 +537,7 @@ nav.navbar {
 }
 
 .post-title-main {
-    height: 315px;
+    max-height: 315px;
     /* width: 1075px; */
     color: #0077D4;
     font-family: Roboto;
@@ -547,7 +557,7 @@ nav.navbar {
 }
 
 .summary {
-    width: 840px;
+    max-width: 840px;
     color: #4A4A4A;
     font-family: Roboto;
     font-size: 17px;
@@ -586,6 +596,7 @@ p.next-step {
     padding-right: 65px;
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-bottom: 80px;
 }
 .post-header-with-background .next-step-btn {
     background-color: transparent;
@@ -603,6 +614,7 @@ p.next-step {
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .post-header-with-background .next-step-label {
     position: absolute;
@@ -796,6 +808,62 @@ footer li.section-link a:hover {
     }
 }
 
+.linkbox {
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 46px;
+    padding-bottom: 46px;
+    margin-bottom: 82px;
+    font-family: Roboto;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+}
+
+.linkbox .linkbox-field-step {
+    font-size: 35px;
+    line-height: 54px;
+    color: white;
+    margin-bottom: 61px;
+}
+.linkbox .linkbox-field-eye {
+    color: rgba(255,255,255,0.6);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 5.93px;
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.linkbox .linkbox-field-title {
+    color: #FFFFFF;
+    font-size: 51px;
+    font-weight: 300;
+    line-height: 54px;
+    max-width: 600px;
+    margin-bottom: 26px;
+}
+.linkbox .linkbox-field-subtitle {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 27px;
+    max-width: 600px;
+    margin-bottom: 54px;
+}
+
+.linkbox img {
+    margin: 0;
+}
+.linkbox .linkbox-btn-label {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    line-height: 13px;
+    margin: 0px 0px 0px 6px;
+}
 
 .white {
     color: white;

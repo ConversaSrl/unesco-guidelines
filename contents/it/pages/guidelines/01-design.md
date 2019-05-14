@@ -1,7 +1,7 @@
 ---
 permalink: it-guidelines-01-design.html
 guidelines-section: "guidelines"
-guidelines-background: "background-01.jpg"
+guidelines-background: "background-blue@2x.jpg"
 title: Design with all the users, focusing on their needs and context
 summary: "For designers and developers of solutions for users with low levels of digital skills and literacy, it is crucial to gain a deep understanding of the target users and follow proven practices to design with – not for – them, in a manner sensitive to the particular challenges. If digital solutions are not driven by real needs and motivations, and are not appropriate to users’ contexts, they will not be relevant, usable and beneficial."
 guidelines-step: "01"

@@ -1,7 +1,37 @@
-<div class="jumbotron">
-	<h1 class="display-4">{{include.title}}</h1>
-	<p class="lead">{{include.subtitle}}</p>
-	<hr class="my-4">
-	<p>{{include.section}}</p>
-	<a class="btn btn-primary btn-lg" href="#" role="button">DISCOVER MORE</a>
-  </div>
+{% assign bg_color = "#4299FF" %}
+{% if include.background-color == "blue" %}
+{% assign bg_color = "#4299FF" %}
+{% else if include.background-color == "pink" %}
+{% assign bg_color = "#F0297C" %}
+{% else if include.background-color %}
+{% assign bg_color = include.background-color %}
+{% endif %}
+
+{% assign bg_image = "none" %}
+{% if include.background-image %}
+{% assign bg_image = include.background-image %}
+{% endif %}
+
+{% if bg_image != "none" %}
+<div class="linkbox" style="background-color: {{bg_color}}; background-image: url('images/{{bg_image}}');" onclick="window.location.href='{{ include.link }}'">
+{% else %}
+<div class="linkbox" style="background-color: {{bg_color}};"></div>
+{% endif %}
+	{% if include.step %}
+	<div class="linkbox-field-step">{{include.step}}.</div>
+	{% endif %}
+	{% if include.eye %}
+	<div class="linkbox-field-eye">{{include.eye}}</div>
+	{% endif %}
+	{% if include.title %}
+	<div class="linkbox-field-title">{{include.title}}</div>
+	{% endif %}
+	{% if include.subtitle %}
+	<div class="linkbox-field-subtitle">{{include.subtitle}}</div>
+	{% endif %}
+	
+	<div class="linkbox-btn">
+		<img src="images/discover-plus-btn.png" />
+		<span class="linkbox-btn-label">DISCOVER MORE</span>
+	</div>
+</div>

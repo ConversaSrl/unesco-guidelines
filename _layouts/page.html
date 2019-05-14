@@ -63,6 +63,8 @@ layout: default
         {% if page.guidelines-background == null %}
         {% if page.guidelines-next-label %}
         <a class="next-step-btn" href="{{ page.guidelines-next-link }}">{{ page.guidelines-next-label }}</a>
+        {% else %}
+        <div style="height: 150px;"></div>
         {% endif %}
         {% endif %}
     </div>
