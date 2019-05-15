@@ -41,28 +41,28 @@ entries:
       guidelines-step: "01"
       output: web, pdf
 
-    - title: "Design with all the users, focusing on their needs and context"
-      url: /en-guidelines-01-design.html
+    - title: "Focus on users’ digital skills and competences"
+      url: /en-guidelines-02-focus.html
       guidelines-step: "02"
       output: web, pdf
 
-    - title: "Design with all the users, focusing on their needs and context"
-      url: /en-guidelines-01-design.html
+    - title: "Ensure the clarity and relevance of content for low-skilled and low-literate users"
+      url: /en-guidelines-03-content.html
       guidelines-step: "03"
       output: web, pdf
 
-    - title: "Design with all the users, focusing on their needs and context"
-      url: /en-guidelines-01-design.html
+    - title: "Use appropriate media and tailor user interface for low-skilled and low-literate users"
+      url: /en-guidelines-04-media.html
       guidelines-step: "04"
       output: web, pdf
 
-    - title: "Design with all the users, focusing on their needs and context"
-      url: /en-guidelines-01-design.html
+    - title: "Provide initial and ongoing training and support"
+      url: /en-guidelines-05-support.html
       guidelines-step: "05"
       output: web, pdf
 
-    - title: "Design with all the users, focusing on their needs and context"
-      url: /en-guidelines-01-design.html
+    - title: "Constantly monitor, measure and improve"
+      url: /en-guidelines-06-monitor.html
       guidelines-step: "06"
       output: web, pdf
 

@@ -11,14 +11,16 @@ guidelines-next-link: en-guidelines-00-design.html
 ---
 
 
-<div class="linkbox" style="background-image: url('images/background-black@2x.jpg'); padding-top: 100px; padding-bottom: 100px;" onclick="window.location.href='en-guidelines-00-home.html'">
+<div class="linkbox linkbox-gotoguidelines" style="background-image: url('images/background-black@2x.jpg'); padding-top: 100px; padding-bottom: 100px;" onclick="window.location.href='en-guidelines-00-home.html'">
 	<div class="linkbox-field-eye" style="color: #4299FF">Focus</div>
 	<div class="linkbox-field-title">Guidelines and recommendations</div>
 	<div class="linkbox-field-subtitle">The following guidelines and recommendations offer a pathway to designing and implementing digital solutions that are more inclusive for users who need the most support. The guidelines should be applied throughout the phases of the standard product development life cycle.</div>
-	<div class="linkbox-btn linkbox-btn-plus">
-		<span class="next-step-btn" style="background-color: #4299FF; margin-bottom: 0px">Go to guidelines</span>
+	<div style="text-align: right">
+		<img class="linkbox-gotoguidelines-arrow" src="images/3darrow.png" />
 	</div>
-	<img src="images/3darrow.png" style="position: absolute; right: 85px; bottom: 60px;" />
+	<div class="linkbox-btn linkbox-btn-plus">
+		<span class="next-step-btn">Go to guidelines</span>
+	</div>
 </div>
 
 {% include linkbox.html
