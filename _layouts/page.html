@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign stringsFile = "strings_" | append: page.lang %}
+{% assign strings = site.data[stringsFile] %}
+
 {% assign post-header-classes = "" %}
 {% assign content_col_size = "col-md-12" %}
 {% assign content_col_size_extra = "" %}
@@ -24,10 +27,10 @@ layout: default
 
             {% if page.guidelines-background != null %}
             <p class="next-step">
-                <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">NEXT</span>{{ page.guidelines-next-label }}</a>
+                <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">{{strings.next_text}}</span>{{ page.guidelines-next-label }}</a>
             </p>
             <div class="scroll-widget">
-                <div class="scroll-widget-label">SCROLL DOWN</div>
+                <div class="scroll-widget-label">{{strings.scroll_down_text}}</div>
                 <div id="scrollGauge" class="gauge-container scroll-widget-gauge"></div>
                 <i class="scroll-widget-chevron fa fa-chevron-down fa-lg"></i>
             </div>

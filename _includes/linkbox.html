@@ -1,3 +1,6 @@
+{% assign stringsFile = "strings_" | append: page.lang %}
+{% assign strings = site.data[stringsFile] %}
+
 {% assign bg_color = "white" %}
 {% if include.background-color == "blue" %}
 {% assign bg_color = "#4299FF" %}
@@ -46,7 +49,7 @@
 	{% else %}
 	<div class="linkbox-btn linkbox-btn-plus">
 		<img src="images/discover-plus-btn.png" />
-		<span class="linkbox-btn-label">DISCOVER MORE</span>
+		<span class="linkbox-btn-label">{{strings.discover_more_text}}</span>
 	</div>
 	{% endif %}
 </div>

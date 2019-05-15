@@ -636,6 +636,7 @@ p.next-step {
     letter-spacing: 4.58px;
     line-height: 10px;
     text-align: left;
+    text-transform: uppercase;
 }
 .post-header-with-background .next-step-btn span.next-step-number {
     color: #FFFFFF;
@@ -672,6 +673,7 @@ p.next-step {
     font-weight: 500;
     letter-spacing: 2px;
     line-height: 11px;
+    text-transform: uppercase;
 }
 
 .scroll-widget-gauge {
@@ -800,8 +802,13 @@ footer li.section-link a:hover {
     margin-bottom: 40px;
 }
 
+.footer-sections {
+    text-transform: uppercase;
+}
+
 .footer-partners {
     font-size: 9px;
+    text-transform: uppercase;
 }
 .footer-partners img {
     max-width: 100%;
@@ -907,6 +914,7 @@ footer li.section-link a:hover {
     letter-spacing: 2.2px;
     line-height: 13px;
     margin: 0px 0px 0px 6px;
+    text-transform: uppercase;
 }
 
 .linkbox.linkbox-gotoguidelines .next-step-btn {

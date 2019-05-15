@@ -57,3 +57,11 @@ $( document ).ready(function() {
     });
 
 });
+
+function switchLanguage() {
+    if (window.location.pathname.startsWith("/en-")) {
+        window.location.href = "it-" + window.location.pathname.substr(4);
+    } else if (window.location.pathname.startsWith("/it-")) {
+        window.location.href = "en-" + window.location.pathname.substr(4);
+    }
+}

@@ -18,7 +18,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a href="index.html"><img class="toplogo" src="{{ log_img }}"/></a>
+            <a href="{{page.lang}}-introduction-00-home.html"><img class="toplogo" src="{{ log_img }}"/></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -43,6 +43,7 @@
                 {% endif %}
                 {% endfor %}
                 {% endfor %}
+                <li class="section-link"><a href="#" onclick="switchLanguage();">ita/en</a></li>
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
                 {% for entry in topnav_dropdowns %}
