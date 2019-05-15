@@ -547,8 +547,11 @@ nav.navbar {
 }
 @media (max-width: 991px) {
     .post-title-main {
-        font-size: 57px;
-        line-height: 68px;
+        hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto;
+        font-size: 45px;
+        line-height: 50px;
     }
 }
 
@@ -646,6 +649,7 @@ p.next-step {
 
 .scroll-widget {
     position: absolute;
+    cursor: pointer;
     right: 0px;
     height: 123px;
     width: 278px;
@@ -702,11 +706,36 @@ p.next-step {
     font-size: 1em;
 }
 
+.scroll-widget-line {
+    position: fixed;
+    z-index: 9999;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: white;
+}
+.scroll-widget-line-value {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: #096fc0;
+}
 
-
+@media (max-width: 992px) {
+    .post-content p {
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.54px;
+        line-height: 30px;
+    }
+}
 @media (min-width: 993px) {
     .col-md-8 .post-content h1 {
-        position: absolute;
+        position: relative;
         margin-top: 0px;
         padding-top: 0px;
         left: 0px;
@@ -732,7 +761,7 @@ footer {
     line-height: 13px;
     background-color: #353535;
     color: #A4A4A4;
-    padding: 70px;
+    padding: 40px;
 }
 
 .footer-title {
@@ -769,10 +798,14 @@ footer li.section-link a:hover {
 .footer-partners {
     font-size: 9px;
 }
+.footer-partners img {
+    max-width: 100%;
+}
 
 @media (min-width: 992px) {
     footer {
         min-height: 484px;
+        padding: 70px;
     }
     .footer-title {
         position: absolute;
@@ -809,6 +842,7 @@ footer li.section-link a:hover {
 }
 
 .linkbox {
+    position: relative;
     padding-left: 85px;
     padding-right: 85px;
     padding-top: 46px;
@@ -856,6 +890,11 @@ footer li.section-link a:hover {
 .linkbox img {
     margin: 0;
 }
+.linkbox .linkbox-btn-arrow {
+    position: absolute;
+    top: calc(50% - 57px);
+    right: 85px;
+}
 .linkbox .linkbox-btn-label {
     color: #FFFFFF;
     font-size: 11px;
@@ -863,6 +902,68 @@ footer li.section-link a:hover {
     letter-spacing: 2.2px;
     line-height: 13px;
     margin: 0px 0px 0px 6px;
+}
+
+@media (min-width: 993px) {
+    .col-md-8 .linkbox {
+        width: 940px;
+        float: right;
+    }
+}
+@media (min-width: 1200px) {
+    .col-md-8 .linkbox {
+        width: 1140px;
+    }
+}
+@media (max-width: 992px) {
+    .linkbox {
+        margin : -15px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .linkbox .linkbox-field-step {
+        margin-bottom: 10px;
+    }
+    .linkbox .linkbox-field-title {
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 40px;
+        margin-bottom: 70px;
+    }
+    .linkbox .linkbox-field-subtitle {
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 0.3px;
+        line-height: 27px;
+    }
+    .linkbox .linkbox-btn-arrow {
+        top: calc(50% - 32px);
+        right: 30px;
+        height: 64px;
+    }
+}
+
+@media (min-width: 993px) {
+    .col-md-12 .linkbox.linkbox-half {
+        float: left;
+        width: calc(50% - 5px);
+        margin-left: 10px;
+    }
+    .col-md-12 .linkbox.linkbox-half.linkbox-nomargin {
+        margin-left: 0px;
+    }
+}
+
+.linkbox.linkbox-vert {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.linkbox.linkbox-vert .linkbox-field-eye {
+    color: rgba(0,0,0,0.6);
 }
 
 .white {

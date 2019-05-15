@@ -71,7 +71,11 @@ these low-fidelity artefacts allow developers to get preliminary feedback on the
 A key principle of user-centred design is iteration. Based on initial understandings and research, prototypes are developed on which users try to give feedback. The design is adjusted accordingly and the process is repeated until the solution sufficiently meets the user needs. Such an incremental approach is key for keeping a short design–test–adjust validation loop.
 
 
-<div style="width: 600px; height: 600px; background-color: blue;">CASE STUDY</div>
+{% include linkbox.html
+link="en-guidelines-02-focus.html"
+background-color="blue"
+title="Case Study"
+%}
 
 
 
@@ -99,8 +103,10 @@ In order to overcome some of these challenges, researchers can:
 
 
 {% include linkbox.html
-title="Title"
-subtitle="Subtitle"
-section="Section" 
+link="en-guidelines-02-focus.html"
+step="02"
+eye="Next" 
+title="Focus on users’ digital skills and competences"
+background-image="background-yellow@2x.jpg"
+button-type="arrow"
 %}
-<div style="width: 600px; height: 600px; background-color: yellow;">NEXT</div>

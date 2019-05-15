@@ -1,9 +1,9 @@
-{% assign bg_color = "#4299FF" %}
+{% assign bg_color = "white" %}
 {% if include.background-color == "blue" %}
 {% assign bg_color = "#4299FF" %}
-{% else if include.background-color == "pink" %}
+{% elsif include.background-color == "pink" %}
 {% assign bg_color = "#F0297C" %}
-{% else if include.background-color %}
+{% elsif include.background-color %}
 {% assign bg_color = include.background-color %}
 {% endif %}
 
@@ -12,10 +12,21 @@
 {% assign bg_image = include.background-image %}
 {% endif %}
 
+{% assign classes = "linkbox" %}
+{% if include.inline == 1 %}
+{% assign classes = "linkbox linkbox-half linkbox-nomargin" %}
+{% elsif include.inline > 1 %}
+{% assign classes = "linkbox linkbox-half" %}
+{% endif %}
+
+{% if include.step == null %}
+{% assign classes = classes | append: " linkbox-vert" %}
+{% endif %}
+
 {% if bg_image != "none" %}
-<div class="linkbox" style="background-color: {{bg_color}}; background-image: url('images/{{bg_image}}');" onclick="window.location.href='{{ include.link }}'">
+<div class="{{classes}}" style="background-color: {{bg_color}}; background-image: url('images/{{bg_image}}');" onclick="window.location.href='{{ include.link }}'">
 {% else %}
-<div class="linkbox" style="background-color: {{bg_color}};"></div>
+<div class="{{classes}}" style="background-color: {{bg_color}};">
 {% endif %}
 	{% if include.step %}
 	<div class="linkbox-field-step">{{include.step}}.</div>
@@ -30,8 +41,12 @@
 	<div class="linkbox-field-subtitle">{{include.subtitle}}</div>
 	{% endif %}
 	
-	<div class="linkbox-btn">
+	{% if include.button-type == "arrow" %}
+	<img src="images/bigarrow.png" class="linkbox-btn linkbox-btn-arrow" />
+	{% else %}
+	<div class="linkbox-btn linkbox-btn-plus">
 		<img src="images/discover-plus-btn.png" />
 		<span class="linkbox-btn-label">DISCOVER MORE</span>
 	</div>
+	{% endif %}
 </div>
