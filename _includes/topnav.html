@@ -11,16 +11,23 @@
 <nav class="{{ navbar_classes }}">
     <div class="container topnavlinks">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
+            </button> -->
+            {% if page.guidelines-background != null %}
+            {% assign menuTogglerAdditionalClasses = "inverted" %}
+            {% endif %}
+            <div class="guidelines-menu-toggler burger burger-squeeze {{menuTogglerAdditionalClasses}}">
+                <div class="burger-lines"></div>
+            </div>
 
             <a href="{{page.lang}}-introduction-00-home.html"><img class="toplogo" src="{{ log_img }}"/></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
             <ul class="nav navbar-nav navbar-right">
 
 {% assign topnav = site.data[page.topnav] %}

@@ -81,7 +81,21 @@
 {% include topnav.html %}
 <!-- Page Content -->
 <div class="container">
-    
+    {% if page.guidelines-background != null %}
+    {% assign menuAdditionalClasses = "inverted" %}
+    {% endif %}
+    <div class="mobile-menu-wrapper {{menuAdditionalClasses}}">
+        <ul class="mobile-menu">
+            {% assign topnav = site.data[page.topnav] %}
+            {% for entry in topnav.topnav %}
+            {% for item in entry.items %}
+            <li><a href="{{item.url | remove: "/"}}">{{item.title}}</a></li>
+            {% endfor %}
+            {% endfor %}
+        </ul>
+        <a class="mobile-menu-lang" href="#" onclick="switchLanguage();">ita/en</a>
+    </div>
+
     {% include sidebar.html %}
     
     <div id="main">
