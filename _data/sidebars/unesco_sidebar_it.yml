@@ -31,38 +31,38 @@ entries:
       output: web, pdf
   
   - title: Linee Guida
-    guidelines-subtitle: "Linee guida per aeiou"
+    guidelines-subtitle: "Linee guida per la Progettazione di Soluzioni Digitali Inclusive e lo Sviluppo di Skill Digitali"
     guidelines-overview: /it-guidelines-00-home.html
     output: web, pdf
     folderitems:
 
-    - title: "Link Italiano 1"
+    - title: "Progettare con gli utenti, focalizzandosi sulle loro esigenze e sul loro contest"
       url: /it-guidelines-01-design.html
       guidelines-step: "01"
       output: web, pdf
 
-    - title: "Link Italiano 2"
-      url: /it-guidelines-01-design.html
+    - title: "Focus sulle abilità e competenze digitali degli utenti"
+      url: /it-guidelines-02-focus.html
       guidelines-step: "02"
       output: web, pdf
 
-    - title: "Link Italiano 3"
-      url: /it-guidelines-01-design.html
+    - title: "Garantire chiarezza e pertinenza dei contenuti per utenti con bassa alfabetizzazione"
+      url: /it-guidelines-03-content.html
       guidelines-step: "03"
       output: web, pdf
 
-    - title: "Link Italiano 4"
-      url: /it-guidelines-01-design.html
+    - title: "Utilizzare supporti appropriati e un'interfaccia su misura per utenti con bassa alfabetizzazione"
+      url: /it-guidelines-04-media.html
       guidelines-step: "04"
       output: web, pdf
 
-    - title: "Link Italiano 5"
-      url: /it-guidelines-01-design.html
+    - title: "Fornire  supporto e una formazione iniziale e continua"
+      url: /it-guidelines-05-support.html
       guidelines-step: "05"
       output: web, pdf
 
-    - title: "Link Italiano 6"
-      url: /it-guidelines-01-design.html
+    - title: "Monitorare, misurare e migliorare costantemente"
+      url: /it-guidelines-06-monitor.html
       guidelines-step: "06"
       output: web, pdf
 

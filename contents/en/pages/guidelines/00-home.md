@@ -7,7 +7,7 @@ summary: "Drawing on the general characteristics of how low-skilled and low-lite
 # guidelines-step: "01"
 # guidelines-next-step: "01"
 # guidelines-next-label: "Go to guidelines"
-# guidelines-next-link: en-guidelines-01-design.html
+# guidelines-next-link: en-guidelines-01-home.html
 ---
 
 

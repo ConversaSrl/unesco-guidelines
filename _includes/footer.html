@@ -2,7 +2,13 @@
 {% assign strings = site.data[stringsFile] %}
 
 <footer>
-    <div class="footer-title"><span class="white">Guidelines for</span> Designing Inclusive Digital Solutions and Developing Digital Skills</div>
+    <div class="footer-title">
+        {% if page.lang == "it" %}
+        <span class="white">Linee guida</span> per la Progettazione di Soluzioni Digitali Inclusive e lo Sviluppo di Skill Digitali
+        {% else %}
+        <span class="white">Guidelines for</span> Designing Inclusive Digital Solutions and Developing Digital Skills
+        {% endif %}
+    </div>
     <div class="footer-sections">
         <p>{{ strings.sections_text }}</p>
         <ul>

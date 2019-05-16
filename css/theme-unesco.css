@@ -588,7 +588,7 @@ nav.navbar {
     margin-bottom: 40px;
 }
 .summary.post-header-with-background {
-    width: 100%;
+    max-width: 100%;
     color: #323232;
     font-family: Roboto;
     font-size: 21px;

@@ -7,7 +7,7 @@ summary: "In an increasingly online world, people need digital skills and litera
 # guidelines-step: "01"
 # guidelines-next-step: "02"
 guidelines-next-label: "Go to Guidelines"
-guidelines-next-link: en-guidelines-00-design.html
+guidelines-next-link: en-guidelines-00-home.html
 ---
 
 

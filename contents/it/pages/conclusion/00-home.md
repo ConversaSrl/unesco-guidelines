@@ -2,7 +2,7 @@
 permalink: it-conclusion-00-home.html
 # guidelines-section: "guidelines"
 # guidelines-background: "background-01.jpg"
-title: Conclusion
+title: Conclusioni
 summary: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
 # guidelines-step: "01"
 # guidelines-next-step: "01"
