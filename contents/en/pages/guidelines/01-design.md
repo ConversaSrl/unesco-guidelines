@@ -28,6 +28,25 @@ Beyond general characteristics, to deeply understand the particular users of a d
 
 - What motivates the person to meet the need? What are their attitudes and aspirations? For example, a child may be focused on completing schooling, but his or her parents may aspire for the child to continue to study to postgraduate level. Understanding the bigger goal – a professional job as opposed to receiving a school completion certificate – can be very useful for the design of digital solutions and advocacy campaigns.
 
+{% include resourcebox.html
+link="en-guidelines-02-focus.html"
+icon="icon-ux.png"
+eye="Case Study"
+title="Best practice for developer"
+%}
+
+{% include resourcebox.html
+link="en-guidelines-02-focus.html"
+icon="icon-rocket.png"
+eye="Develop"
+title="Lorem ipsum dolor sit amet"
+%}
+
+
+
+
+
+
 
 ## Guiding questions about the human circle
 
@@ -46,7 +65,20 @@ Beyond general characteristics, to deeply understand the particular users of a d
 
 Answering these questions involves significant research, some of which can be done virtually and some done in the field, as explored next.
  
- 
+{% include resourcebox.html
+link="en-guidelines-02-focus.html"
+icon="icon-ux.png"
+eye="Case Study"
+title="Best practice for developer"
+%}
+
+{% include resourcebox.html
+link="en-guidelines-02-focus.html"
+icon="icon-rocket.png"
+eye="Develop"
+title="Lorem ipsum dolor sit amet"
+%}
+
 
 # Follow best practice user-centred design approaches
  

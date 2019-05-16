@@ -1,0 +1,12 @@
+<div class="resourcebox" onclick="window.location.href='{{ include.link }}'">
+	<img class="resourcebox-icon" src="images/{{include.icon}}" />
+		
+	{% if include.eye %}
+	<div class="resourcebox-field-eye">{{include.eye}}</div>
+	{% endif %}
+	{% if include.title %}
+	<div class="resourcebox-field-title">{{include.title}}</div>
+	{% endif %}
+	
+	<img class="resourcebox-btn-plus" src="images/discover-small.png" />
+</div>

@@ -11,6 +11,15 @@ guidelines-next-link: en-guidelines-00-design.html
 ---
 
 
+{% include linkbox.html
+link="en-guidelines-01-design.html"
+background-color="blue"
+image="people1.jpg"
+eye="Introduction"
+title="Two years of research"
+subtitle="Establishing digital entry points for people with limited literacy and limited digital skills creates a virtuous cycle that accelerates learning and development, benefiting individuals and strengthening communities and livelihoods."
+%}
+
 <div class="linkbox linkbox-gotoguidelines" style="background-image: url('images/background-black@2x.jpg'); padding-top: 100px; padding-bottom: 100px;" onclick="window.location.href='en-guidelines-00-home.html'">
 	<div class="linkbox-field-eye" style="color: #4299FF">Focus</div>
 	<div class="linkbox-field-title">Guidelines and recommendations</div>
@@ -24,7 +33,7 @@ guidelines-next-link: en-guidelines-00-design.html
 </div>
 
 {% include linkbox.html
-link="en-guidelines-02-focus.html"
+link="en-guidelines-01-design.html"
 background-color="pink"
 eye="Conclusion"
 title="Skills and opportunities"
@@ -32,7 +41,7 @@ subtitle="It is hoped that with implementation, more people will be able to acce
 inline=1
 %}
 {% include linkbox.html
-link="en-guidelines-02-focus.html"
+link="en-guidelines-01-design.html"
 background-color="blue"
 eye="Community"
 title="Share your experiences"

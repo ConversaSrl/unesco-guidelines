@@ -1,6 +1,14 @@
+
+
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+    /* overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 @font-face {
@@ -321,7 +329,10 @@ h5, .h5 {
 }
 
 p {
-    margin: 0 0 16px;
+    margin: 0 0 40px;
+}
+li p {
+    margin: 0 0 10px;
 }
 
 
@@ -478,6 +489,7 @@ nav.navbar {
     background-color: white;
     border-top: 1px solid #CCCACA;
     padding: 13px;
+    cursor: pointer;
 }
 
 .toc-section ul li span.step {
@@ -866,6 +878,40 @@ footer li.section-link a:hover {
     background-size: cover;
 }
 
+.linkbox-wrapper {
+    margin-bottom: 82px;
+}
+.linkbox-wrapper .linkbox {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.linkbox-img {
+    height: 375px;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width: 992px) {
+    .linkbox-img {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+}
+@media (min-width: 993px) {
+    .linkbox-wrapper {
+        display: table;
+    }
+    .linkbox-img {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+    }
+    .linkbox-wrapper .linkbox {
+        display: table-cell;
+        width: 50%;
+        height: 100%;
+    }
+}
+
 .linkbox .linkbox-field-step {
     font-size: 35px;
     line-height: 54px;
@@ -940,7 +986,8 @@ footer li.section-link a:hover {
 }
 @media (max-width: 992px) {
     .linkbox {
-        margin : -30px;
+        margin-left : -30px;
+        margin-right : -30px;
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 64px;
@@ -995,6 +1042,74 @@ footer li.section-link a:hover {
 }
 .linkbox.linkbox-vert .linkbox-field-eye {
     color: rgba(0,0,0,0.6);
+}
+
+.resourcebox {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 115px;
+    width: 350px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+}
+@media (max-width: 1200px) {
+    .resourcebox {
+        width: 280px;
+    }
+}
+@media (max-width: 650px) {
+    .resourcebox {
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+.resourcebox .resourcebox-icon {
+    position: absolute;
+    margin: 0;
+    top: 37px;
+    left: 26px;
+    width: 37px;
+    height: 37px;
+}
+.resourcebox .resourcebox-field-eye {
+    position: absolute;
+    top: 32px;
+    left: 86px;
+    width: 197px;
+    height: 11px;
+    color: #919090;
+    font-family: Roboto;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 3.85px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.resourcebox .resourcebox-field-title {
+    position: absolute;
+    top: 44px;
+    left: 85px;
+    width: 197px;
+    height: 42px;
+    color: #0077D4;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 19px;
+}
+.resourcebox .resourcebox-btn-plus {
+    position: absolute;
+    margin: 0;
+    right: 17px;
+    bottom: 17px;
+    width: 20px;
+    height: 20px;
 }
 
 .white {

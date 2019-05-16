@@ -18,15 +18,15 @@
           {% for folderitem in folder.folderitems %}
           {% if folderitem.output contains "web" %}
           {% if folderitem.external_url %}
-          <li><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
+          <li onclick="window.location.href='{{folderitem.url | remove: "/"}}'"><a href="{{folderitem.external_url}}" target="_blank">{{folderitem.title}}</a></li>
           {% elsif page.url == folderitem.url %}
-          <li class="active"><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
+          <li class="active" onclick="window.location.href='{{folderitem.url | remove: "/"}}'"><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
           {% elsif folderitem.type == "empty" %}
-          <li><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
-
+          <li onclick="window.location.href='{{folderitem.url | remove: "/"}}'"><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
           {% else %}
-          <li><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
+          <li onclick="window.location.href='{{folderitem.url | remove: "/"}}'"><a href="{{folderitem.url | remove: "/"}}"><span class="step">{{folderitem.guidelines-step}}. </span>{{folderitem.title}}</a></li>
           {% endif %}
+
           {% for subfolders in folderitem.subfolders %}
           {% if subfolders.output contains "web" %}
           <li class="subfolders">
