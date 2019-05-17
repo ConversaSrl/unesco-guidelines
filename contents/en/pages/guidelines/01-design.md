@@ -102,13 +102,51 @@ these low-fidelity artefacts allow developers to get preliminary feedback on the
 
 A key principle of user-centred design is iteration. Based on initial understandings and research, prototypes are developed on which users try to give feedback. The design is adjusted accordingly and the process is repeated until the solution sufficiently meets the user needs. Such an incremental approach is key for keeping a short design–test–adjust validation loop.
 
-
-{% include linkbox.html
+{% include case_studies_slideshow.html
 link="en-guidelines-02-focus.html"
 background-color="blue"
-title="Case Study"
-%}
 
+slide1_title="Take a design journey with the users"
+slide1_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
+
+In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
+
+The team behind Khushi Baby were students at Yale University in the USA.
+In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
+
+The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide1_link="http://bit.Ly/khushibabydesign"
+slide1_image="people2.png"
+
+
+
+slide2_title="Take a design journey with the users"
+slide2_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
+
+In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
+
+The team behind Khushi Baby were students at Yale University in the USA.
+In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
+
+The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide2_link="http://bit.Ly/khushibabydesign"
+slide2_image="people1.jpg"
+
+
+
+slide3_title="Take a design journey with the users"
+slide3_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
+
+In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
+
+The team behind Khushi Baby were students at Yale University in the USA.
+In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
+
+The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide3_link="http://bit.Ly/khushibabydesign"
+slide3_image="people1.jpg"
+
+%}
 
 
 # Beware of challenges when designing with low-skilled and low-literate users
