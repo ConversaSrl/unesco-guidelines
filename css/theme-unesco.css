@@ -1058,6 +1058,7 @@ footer li.section-link a:hover {
     border-radius: 4px;
     background-color: #FFFFFF;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+    cursor: pointer;
 }
 @media (max-width: 1200px) {
     .resourcebox {

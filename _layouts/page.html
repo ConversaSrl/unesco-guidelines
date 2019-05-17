@@ -25,9 +25,13 @@ layout: default
             <img class="feature-image" src={{ page.feature-img }} alt="Feature Image" style="margin: 0 0 10px 0 !important" />
             {% endif %}
 
-            {% if page.guidelines-background != null %}
+            {% if page.guidelines-background %}
             <p class="next-step">
+                {% if page.guidelines-next-step %}
                 <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">{{strings.next_text}}</span>{{ page.guidelines-next-label }}</a>
+                {% else %}
+                <a class="next-step-btn"><span class="next-step-number">&nbsp;</span><span class="next-step-label">&nbsp;</span></a>
+                {% endif %}
             </p>
             <div class="scroll-widget">
                 <div class="scroll-widget-label">{{strings.scroll_down_text}}</div>

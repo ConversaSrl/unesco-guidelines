@@ -55,7 +55,7 @@ background-image="background-green@2x.jpg"
 link="it-guidelines-05-support.html"
 step="05"
 eye="Linee Guida" 
-title="Fornire  supporto e una formazione iniziale e continua"
+title="Fornire supporto e una formazione iniziale e continua"
 subtitle="Per gli utenti poco qualificati e a basso livello di alfabetizzazione anche le interazioni tecnologiche più semplici possono essere impegnative."
 background-image="background-pink@2x.jpg"
 %}
