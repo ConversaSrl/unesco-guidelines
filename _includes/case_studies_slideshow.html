@@ -50,15 +50,11 @@
 	{% endif %}
 {% endfor %}
 
-
-<p>{{include[my_variable]}}</p>
-
-
 <div class="cs-slideshow-wrapper">
 	<div class="cs-slideshow-img" style="background-image: url('images/{{slide_image}}');"></div>
 
 
-<div class="cs-slideshow-content" onclick="window.location.href='{{ slide_link }}'">
+<div class="cs-slideshow-content">
 	<div class="cs-slideshow-content-casestudy">{{strings.case_study_text}}</div>
 	{% if slide_title %}
 	<div class="cs-slideshow-content-title">{{slide_title}}</div>
@@ -70,7 +66,14 @@
 	<div class="cs-slideshow-content-link-label">{{strings.discover_more_text}}</div>
 	<a class="cs-slideshow-content-link" href="{{slide_link}}">{{slide_link | remove_first: "http://"  | remove_first: "https://" }}</a>
 	{% endif %}
+	
 </div>
-
+<div class="cs-slideshow-nav">
+	<div class="cs-slideshow-nav-label-index">01</div>
+	<div class="cs-slideshow-nav-label-sep"></div>
+	<div class="cs-slideshow-nav-label-count">03</div>
+	<img src="images/arrow-previous.png" />
+	<img src="images/arrow-next.png" />
+</div>
 
 </div>
