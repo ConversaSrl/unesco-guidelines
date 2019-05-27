@@ -1334,7 +1334,8 @@ ul.mobile-menu li a {
 .cs-slideshow-wrapper {
     position: relative;
     top: 44px;
-    margin-bottom: 44px;
+    margin-top: 44px;
+    margin-bottom: 88px;
 }
 
 .cs-slideshow-content-casestudy {
@@ -1346,20 +1347,29 @@ ul.mobile-menu li a {
     margin-bottom: 8px;
     text-transform: uppercase;
 }
-.cs-slideshow-img {
+.cs-slideshow-img-wrapper {
     height: 665px;
     width: 906px;
-
+    z-index: 1;
     background-color: #0077D4;
     box-shadow: 0 33px 44px 0 rgba(0,0,0,0.28);
-    background-position: center;
-    background-size: cover;
     float: left;
     position: absolute;
     left: -806px;
     top: -44px;
+    overflow: hidden;
 }
-.cs-slideshow-content {
+.cs-slideshow-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-clip: content-box;
+    padding-top: 0%;
+}
+.cs-slideshow-content-wrapper {
+    min-height: 700px;
     padding-left: 380px;
     margin-left: -205px;
     padding-right: 62px;
@@ -1367,6 +1377,7 @@ ul.mobile-menu li a {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: #4299FF;
+    overflow: hidden;
 }
 
 .cs-slideshow-content-title {
@@ -1444,13 +1455,13 @@ ul.mobile-menu li a {
 }
 
 @media (max-width: 992px) {
-    .cs-slideshow-img {
+    .cs-slideshow-img-wrapper {
         height: 372px;
         width: 100%;
         left: -60px;
         top: -332px;
     }
-    .cs-slideshow-content {
+    .cs-slideshow-content-wrapper {
         padding-left: 70px;
         margin-left: -30px;
         padding-right: 70px;
@@ -1460,9 +1471,96 @@ ul.mobile-menu li a {
     }
     .cs-slideshow-wrapper {
         top: 320px;
-        margin-bottom: 320px;
+        margin-bottom: 364px;
     }
     .cs-slideshow-nav {
         left: 0px
+    }
+}
+
+
+
+
+
+.maskDown {
+    animation-name: maskDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes maskDown {
+    from {
+        padding-top: 0;
+    }
+    to {
+        padding-top: 665px;
+    }
+}
+@keyframes maskDown {
+    from {
+        padding-top: 0%;
+    }
+    to {
+        padding-top: 665px;
+    }
+}
+
+.maskUp {
+    animation-name: maskUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes maskUp {
+    from {
+        padding-bottom: 0;
+    }
+    to {
+        padding-bottom: 665px;
+    }
+}
+@keyframes maskUp {
+    from {
+        padding-bottom: 0;
+    }
+    to {
+        padding-bottom: 665px;
+    }
+}
+
+
+
+
+
+
+.scaleDown {
+    animation-name: scaleDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+}
+@-webkit-keyframes scaleDown {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+@keyframes scaleDown {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
     }
 }

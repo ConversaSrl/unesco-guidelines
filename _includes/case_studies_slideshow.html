@@ -1,32 +1,7 @@
 {% assign stringsFile = "strings_" | append: page.lang %}
 {% assign strings = site.data[stringsFile] %}
 
-{% assign bg_color = "white" %}
-{% if include.background-color == "blue" %}
-{% assign bg_color = "#4299FF" %}
-{% elsif include.background-color == "pink" %}
-{% assign bg_color = "#F0297C" %}
-{% elsif include.background-color %}
-{% assign bg_color = include.background-color %}
-{% endif %}
-
-{% assign bg_image = "none" %}
-{% if include.background-image %}
-{% assign bg_image = include.background-image %}
-{% endif %}
-
-{% assign classes = "linkbox" %}
-{% if include.inline == 1 %}
-{% assign classes = "linkbox linkbox-half linkbox-nomargin" %}
-{% elsif include.inline > 1 %}
-{% assign classes = "linkbox linkbox-half" %}
-{% endif %}
-
-{% if include.step == null %}
-{% assign classes = classes | append: " linkbox-vert" %}
-{% endif %}
-
-
+{% assign slideshowId = include.id %}
 
 {% for i in (1..100) %}
 	{% assign my_variable = "slide" | append: {{i}} | append: "_title" %}
@@ -40,40 +15,48 @@
 		{% assign slide_link = include[slide_link] %}
 		{% assign slide_image = "slide" | append: {{i}} | append: "_image" %}
 		{% assign slide_image = include[slide_image] %}
-<div class="cs-slideshow-slide" data-index="{{slideMax}}">
+<div class="cs-slideshow-slide" data-parent="{{slideshowId}}" data-index="{{slideMax}}">
 <p class="cs-slideshow-slide-title">{{slide_title}}</p>
 <p class="cs-slideshow-slide-text">{{slide_text}}</p>
 <p class="cs-slideshow-slide-link">{{slide_link}}</p>
+<p class="cs-slideshow-slide-image">{{slide_image}}</p>
 </div>
 	{% else %}
 		{% break %}	
 	{% endif %}
 {% endfor %}
 
-<div class="cs-slideshow-wrapper">
-	<div class="cs-slideshow-img" style="background-image: url('images/{{slide_image}}');"></div>
+<script>
+	var {{slideshowId}} = new CaseStudiesSlideShow("{{slideshowId}}");
+	{{slideshowId}}.lastSlide = {{slideMax}};
+</script>
 
+<div id="{{slideshowId}}" class="cs-slideshow-wrapper">
+	<div class="cs-slideshow-img-wrapper">
+		<div class="cs-slideshow-img default" style="background-image: url('images/{{slide_image}}');"></div>
+		<div class="cs-slideshow-img helper" style="display: none;"></div>
+	</div>
 
-<div class="cs-slideshow-content">
-	<div class="cs-slideshow-content-casestudy">{{strings.case_study_text}}</div>
-	{% if slide_title %}
-	<div class="cs-slideshow-content-title">{{slide_title}}</div>
-	{% endif %}
-	{% if slide_text %}
-	<div class="cs-slideshow-content-text">{{slide_text}}</div>
-	{% endif %}
-	{% if slide_link %}
-	<div class="cs-slideshow-content-link-label">{{strings.discover_more_text}}</div>
-	<a class="cs-slideshow-content-link" href="{{slide_link}}">{{slide_link | remove_first: "http://"  | remove_first: "https://" }}</a>
-	{% endif %}
-	
-</div>
-<div class="cs-slideshow-nav">
-	<div class="cs-slideshow-nav-label-index">01</div>
-	<div class="cs-slideshow-nav-label-sep"></div>
-	<div class="cs-slideshow-nav-label-count">03</div>
-	<img src="images/arrow-previous.png" />
-	<img src="images/arrow-next.png" />
-</div>
+	<div class="cs-slideshow-content-wrapper">
+		<div class="cs-slideshow-content">
+			<div class="cs-slideshow-content-casestudy"></div>
+			<div class="cs-slideshow-content-title"></div>
+			<div class="cs-slideshow-content-text"></div>
+			<div class="cs-slideshow-content-link-label">{{strings.discover_more_text}}</div>
+			<a class="cs-slideshow-content-link" target="_blank"></a>
+		</div>
+	</div>
+
+	<div class="cs-slideshow-nav">
+		<div class="cs-slideshow-nav-label-index">01</div>
+		<div class="cs-slideshow-nav-label-sep"></div>
+		<div class="cs-slideshow-nav-label-count">03</div>
+		<img src="images/arrow-previous.png" onclick="{{slideshowId}}.previousSlide();" />
+		<img src="images/arrow-next.png" onclick="{{slideshowId}}.nextSlide();" />
+	</div>
+
+	<script>
+		{{slideshowId}}.update();
+	</script>
 
 </div>

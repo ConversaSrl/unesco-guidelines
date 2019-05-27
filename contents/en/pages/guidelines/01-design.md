@@ -17,17 +17,6 @@ The first step to developing appropriate digital solutions is understanding as w
 
 Beyond general characteristics, to deeply understand the particular users of a digital solution, it is necessary to spend time to get to know them: their family, community and culture; their working contexts; their local leaders and community experts; their needs and pain points; and their motivations and aspirations. A better understanding of the end-users can lead to better- designed products. Asking the right questions will help to build a good picture of the users and their ecosystem, for example:
 
-
-## Guiding questions about the core target user(s)
-
-- Who is the core target user, the person whom the service and information is directly intended to benefit, and who interacts most with it? Across a digital platform with many touch points, this can be more than one person. For example, the same digital solution might send a mother a series of maternal health SMSs and allow a district health official to view an analysis of the number of messages sent and responded to over time.
-
-- For each target user, what are their demographics? For example, what are their education and literacy levels? What are their technology usage and digital competences (the focus of the next guideline)?
-
-- What are their particular needs and how are they currently being met, or not? What are their behaviours and daily routine with regard to the particular need being addressed? What or who are potential knowledge sources, and are there bottlenecks to accessing those sources?
-
-- What motivates the person to meet the need? What are their attitudes and aspirations? For example, a child may be focused on completing schooling, but his or her parents may aspire for the child to continue to study to postgraduate level. Understanding the bigger goal – a professional job as opposed to receiving a school completion certificate – can be very useful for the design of digital solutions and advocacy campaigns.
-
 {% include resourcebox.html
 link="en-guidelines-02-focus.html"
 icon="icon-ux.png"
@@ -40,6 +29,58 @@ link="en-guidelines-02-focus.html"
 icon="icon-rocket.png"
 eye="Develop"
 title="Lorem ipsum dolor sit amet"
+%}
+
+
+
+## Guiding questions about the core target user(s)
+
+- Who is the core target user, the person whom the service and information is directly intended to benefit, and who interacts most with it? Across a digital platform with many touch points, this can be more than one person. For example, the same digital solution might send a mother a series of maternal health SMSs and allow a district health official to view an analysis of the number of messages sent and responded to over time.
+
+- For each target user, what are their demographics? For example, what are their education and literacy levels? What are their technology usage and digital competences (the focus of the next guideline)?
+
+- What are their particular needs and how are they currently being met, or not? What are their behaviours and daily routine with regard to the particular need being addressed? What or who are potential knowledge sources, and are there bottlenecks to accessing those sources?
+
+- What motivates the person to meet the need? What are their attitudes and aspirations? For example, a child may be focused on completing schooling, but his or her parents may aspire for the child to continue to study to postgraduate level. Understanding the bigger goal – a professional job as opposed to receiving a school completion certificate – can be very useful for the design of digital solutions and advocacy campaigns.
+
+{% include case_studies_slideshow.html
+id="usecase_slideshow1"
+background-color="blue"
+
+slide1_title="Take a design journey with the users"
+slide1_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
+
+In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
+
+The team behind Khushi Baby were students at Yale University in the USA.
+In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
+
+The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide1_link="http://bit.Ly/khushibabydesign"
+slide1_image="people1.jpg"
+
+
+
+slide2_title="Lorem Ipsum dolor sit amet"
+slide2_text="Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus.
+
+Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+slide2_link="http://www.conversa.it"
+slide2_image="people2.jpg"
+
+
+
+slide3_title="Integer posuere erat a ante venenatis"
+slide3_text="Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+
+Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+Donec id elit non mi porta gravida at eget metus. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+slide3_link="http://www.conversa.it"
+slide3_image="people1.jpg"
+
 %}
 
 
@@ -103,51 +144,20 @@ these low-fidelity artefacts allow developers to get preliminary feedback on the
 A key principle of user-centred design is iteration. Based on initial understandings and research, prototypes are developed on which users try to give feedback. The design is adjusted accordingly and the process is repeated until the solution sufficiently meets the user needs. Such an incremental approach is key for keeping a short design–test–adjust validation loop.
 
 {% include case_studies_slideshow.html
-link="en-guidelines-02-focus.html"
+id="usecase_slideshow2"
 background-color="blue"
 
-slide1_title="Take a design journey with the users"
-slide1_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
-
-In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
-
-The team behind Khushi Baby were students at Yale University in the USA.
-In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
-
-The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide1_title="title 1"
+slide1_text="text 1"
 slide1_link="http://bit.Ly/khushibabydesign"
-slide1_image="people2.png"
+slide1_image="people1.jpg"
 
-
-
-slide2_title="Take a design journey with the users"
-slide2_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
-
-In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
-
-The team behind Khushi Baby were students at Yale University in the USA.
-In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
-
-The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
+slide2_title="title 2"
+slide2_text="text 2"
 slide2_link="http://bit.Ly/khushibabydesign"
-slide2_image="people1.jpg"
-
-
-
-slide3_title="Take a design journey with the users"
-slide3_text="The Khushi Baby initiative uses mobile technology and a wearable digital necklace to provide effective tracking of maternal and child health-care data in India.
-
-In addition to supporting mothers, the service supports the activities of community health workers (CHWs) – often low-literate and with low digital skills – and generates data for district-level decision-making related to health administration.
-
-The team behind Khushi Baby were students at Yale University in the USA.
-In order to understand the needs and local context for the solution, team members spent two months living in rural Udaipur, India, while accompanying CHWs from a local implementing partner.
-
-The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
-slide3_link="http://bit.Ly/khushibabydesign"
-slide3_image="people1.jpg"
+slide2_image="people2.jpg"
 
 %}
-
 
 # Beware of challenges when designing with low-skilled and low-literate users
 
