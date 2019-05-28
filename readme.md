@@ -209,7 +209,8 @@ title="Best practice for developer"
 
 The _link box_ is a block that allows to jump to another page or section inside the website. It is more prominent and complex compared to the resource box, allowing more content to be placed in and offering more customizations options.
 
-Here's how a base _link box_ appears on the page:
+Here's how a base _link box_ appea
+ on the page:
 
 ![Link Box 1](_readme-images/linkbox-1.png)
 
@@ -236,7 +237,9 @@ A description of the various parameters follows. Notice that most of them are op
 - `background-image`: optional image to be used as background
 - `background-color`: optional background color. Predefined values are `blue` and `pink` but any valid CSS color can be used eventually
 
-The _discover more_ button displayed below is automatically localized. There's also an alternative appearence using an arrow instead of the plus button:
+The _discover more_ button displayed below is automatically localized.
+
+There's also an alternative appearence using an arrow instead of the plus button:
 
 ![Link Box 2](_readme-images/linkbox-2.png)
 
@@ -257,7 +260,7 @@ Yet another variant of the _link box_ allows to add a photo to the box, which wi
 
 ![Link Box 3](_readme-images/linkbox-3.png)
 
-To use it, just add the parameter `image` to the definition, with the file name of the image you want to use for example:
+To use it, just add the parameter `image` to the definition, with the file name of the image you want to use, for example:
 
 ```yaml
 {% include linkbox.html
