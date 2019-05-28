@@ -34,6 +34,7 @@ exclude:
   - .idea/
   - .gitignore
   - readme.md
+  - readme.html
   - _readme-images/
 # these are the files and directories that jekyll will exclude from the build
 
