@@ -151,6 +151,7 @@ And here's an example of the resulting page layout:
 #### Advanced Page Layout
 
 The advanced layout defines a page with two-column layout, with a heading image and an optional _next step_ widget eventually to jump to the next step in the guideline. This setup is used for internal guidelines steps.
+
 The frontmatter is defined as follows:
 
 ```yaml
@@ -182,12 +183,13 @@ Here's an example of the resulting page layout:
 ### Widgets
 
 The toolkit also offers some widgets that allow to easily add more structured contents to a page, such as graphically emphasized links to sections or resources and use cases slideshows.
+
 These can be added to the content directly in the markdown files, using the code described for each one in the following sections.
 
 
 #### Resource Box
 
-The _resource box_ creates a graphic box that allows to jump to internal or external resources linked to the content:
+The _resource box_ is a graphic box that allows to jump to internal or external resources linked to the content:
 
 ![Resource Box](_readme-images/resourcebox.png)
 
@@ -205,9 +207,14 @@ title="Best practice for developer"
 
 #### Link Box
 
-**MOST ITEMS ARE OPTIONALS!!**
+The _link box_ is a block that allows to jump to another page or section inside the website. It is more prominent and complex compared to the resource box, allowing more content to be placed in and offering more customizations options.
 
-1
+Here's how a base _link box_ appears on the page:
+
+![Link Box 1](_readme-images/linkbox-1.png)
+
+And here's the code to obtain the above _link box_:
+
 ```yaml
 {% include linkbox.html
 link="en-guidelines-01-design.html"
@@ -218,9 +225,23 @@ subtitle="If digital solutions are not driven by real needs and motivations, and
 background-image="background-blue@2x.jpg"
 %}
 ```
-![Link Box 1](_readme-images/linkbox-1.png)
 
-2 - alternative arrow
+A description of the various parameters follows. Notice that most of them are optionals and can be simply skipped if the corresponding functionality is not neeeded:
+
+- `link`: internal page name or external address to link to
+- `step`: optional step number, displayed on top of the block
+- `eye`: optional eyelet, displayed above the title
+- `title`: title for the _link box_
+- `subtitle`: optional subtitle, displayed below the title
+- `background-image`: optional image to be used as background
+- `background-color`: optional background color. Predefined values are `blue` and `pink` but any valid CSS color can be used eventually
+
+The _discover more_ button displayed below is automatically localized. There's also an alternative appearence using an arrow instead of the plus button:
+
+![Link Box 2](_readme-images/linkbox-2.png)
+
+To use it, just add the parameter `button-type="arrow"` to the definition, for example:
+
 ```yaml
 {% include linkbox.html
 link="en-guidelines-02-focus.html"
@@ -231,9 +252,13 @@ background-image="background-yellow@2x.jpg"
 button-type="arrow"
 %}
 ```
-![Link Box 2](_readme-images/linkbox-2.png)
 
-3 - with photo
+Yet another variant of the _link box_ allows to add a photo to the box, which will be presented on the left (desktop) or on top (mobile) of the box:
+
+![Link Box 3](_readme-images/linkbox-3.png)
+
+To use it, just add the parameter `image` to the definition, with the file name of the image you want to use for example:
+
 ```yaml
 {% include linkbox.html
 link="en-guidelines-01-design.html"
@@ -244,9 +269,13 @@ title="Two years of research"
 subtitle="Establishing digital entry points for people with limited literacy and limited digital skills creates a virtuous cycle that accelerates learning and development, benefiting individuals and strengthening communities and livelihoods."
 %}
 ```
-![Link Box 3](_readme-images/linkbox-3.png)
 
-4 - inline (basic layout only)
+Finally, you can use parameters `inline=1` and `inline=2` if you want two _link boxes_ to be displayed side by side.
+
+Note that this configuration works only on pages using [basic layout](#basic-page-layout) and is not compatible with the `image` parameter described just above.
+
+![Link Box 4](_readme-images/linkbox-4.png)
+
 ```yaml
 {% include linkbox.html
 link="en-guidelines-01-design.html"
@@ -257,9 +286,19 @@ subtitle="It is hoped that with implementation, more people will be able to acce
 inline=1
 %}
 ```
-![Link Box 4](_readme-images/linkbox-4.png)
 
 #### Use Cases Slideshow
+
+The _use cases slideshow_ allows to add a paginated and animated slideshow of use cases on the page. Each slideshow must have a unique `id` (containing only alphanumeric characters and underscore `_`) and one slide for each use case.
+
+Each slide has the following mandatory parameters (where `<N>` is the actual number of the slide):
+
+- `slide<N>_title`: the title of the use case
+- `slide<N>_text`: the text of the use case
+- `slide<N>_link`: the page file name or external link for the use case
+- `slide<N>_image`: the file name of an image related to the use case
+
+Here's an example of a slideshow with three use cases:
 
 ```yaml
 {% include case_studies_slideshow.html
@@ -276,5 +315,14 @@ slide2_text="text 2"
 slide2_link="http://bit.Ly/khushibabydesign"
 slide2_image="people2.jpg"
 
+slide2_title="title 3"
+slide2_text="text 3"
+slide2_link="http://bit.Ly/khushibabydesign"
+slide2_image="people3.jpg"
+
 %}
 ```
+
+And here's how it looks on the page:
+
+![Use Cases Slideshow](_readme-images/use_cases_slideshow.png)
