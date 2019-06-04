@@ -31,8 +31,6 @@ eye="Develop"
 title="Lorem ipsum dolor sit amet"
 %}
 
-
-
 ## Guiding questions about the core target user(s)
 
 - Who is the core target user, the person whom the service and information is directly intended to benefit, and who interacts most with it? Across a digital platform with many touch points, this can be more than one person. For example, the same digital solution might send a mother a series of maternal health SMSs and allow a district health official to view an analysis of the number of messages sent and responded to over time.
@@ -126,20 +124,19 @@ title="Lorem ipsum dolor sit amet"
 There are many tools and practices to help answer the questions above and to really design with users. A core principle across all resources is putting the user at the centre of the process. User-centred design is an approach to digital solution development that is driven by the needs, capabilities and context of users. In the research it is necessary to engage the broad human network around the target users, for example husbands or wives, caregivers, community leaders, or colleagues and superiors. Ultimately, all research should shed as much light as possible on the nature and extent of the need or problem being addressed.
 The following recommended activities, mostly undertaken with the end-users, are common in good user-centred design.
 
-• Conduct desk research to deepen the broad understanding of the users and their context. For example, note at a national level the literacy rates and mobile uptake statistics.
+- Conduct desk research to deepen the broad understanding of the users and their context. For example, note at a national level the literacy rates and mobile uptake statistics.
 
-• Create user personas, which are fictitious characterizations that capture, in a relatable way, the key attributes – such as demographics, knowledge, attitudes, practices and motivations – of the target users.
+- Create user personas, which are fictitious characterizations that capture, in a relatable way, the key attributes – such as demographics, knowledge, attitudes, practices and motivations – of the target users.
 
-• Draw a user journey map of the end-to-end activities and processes of the users to show the full set of steps and possible paths to achieve a particular outcome. A user journey map is useful for highlighting broad user pain points, barriers and opportunities. It informs not only what will become the digital solution, but also related issues, such as the user onboarding process.
+- Draw a user journey map of the end-to-end activities and processes of the users to show the full set of steps and possible paths to achieve a particular outcome. A user journey map is useful for highlighting broad user pain points, barriers and opportunities. It informs not only what will become the digital solution, but also related issues, such as the user onboarding process.
  
-• Develop user scenarios for key moments in the user journey, which detail specific user needs in clear, action-oriented ‘stories’. User stories simply describe what users need to do and why. It is critical that the stories written by the solution development team are validated through user research to ensure they correctly capture reality.
+- Develop user scenarios for key moments in the user journey, which detail specific user needs in clear, action-oriented ‘stories’. User stories simply describe what users need to do and why. It is critical that the stories written by the solution development team are validated through user research to ensure they correctly capture reality.
 
-• Map the ecosystem to identify and understand all the stakeholders and factors that must be considered in the whole solution design. Community involvement is useful in creating the ecosystem map.
+- Map the ecosystem to identify and understand all the stakeholders and factors that must be considered in the whole solution design. Community involvement is useful in creating the ecosystem map.
 
-• Design low-level, and later more detailed, prototypes of the digital solution. While low-level wireframes and paper prototypes may lack fine-grain details, they have the advantage that they are a very cheap and proven way to quickly test high-level concepts with users without distracting them with details about aesthetics. In particular,
-these low-fidelity artefacts allow developers to get preliminary feedback on the extent to which the overall UI, including its navigational flow and language, is consistent with the users’ mental models. At the very least, the artefacts support discussions with users to better understand the issues at hand.
+- Design low-level, and later more detailed, prototypes of the digital solution. While low-level wireframes and paper prototypes may lack fine-grain details, they have the advantage that they are a very cheap and proven way to quickly test high-level concepts with users without distracting them with details about aesthetics. In particular, these low-fidelity artefacts allow developers to get preliminary feedback on the extent to which the overall UI, including its navigational flow and language, is consistent with the users’ mental models. At the very least, the artefacts support discussions with users to better understand the issues at hand.
 
-• Test content, a critical component of the design process – described in the next guideline.
+- Test content, a critical component of the design process – described in the next guideline.
 
 A key principle of user-centred design is iteration. Based on initial understandings and research, prototypes are developed on which users try to give feedback. The design is adjusted accordingly and the process is repeated until the solution sufficiently meets the user needs. Such an incremental approach is key for keeping a short design–test–adjust validation loop.
 
