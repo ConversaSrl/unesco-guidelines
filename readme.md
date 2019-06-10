@@ -7,7 +7,11 @@ The toolkit is built upon [Jekyll](https://github.com/jekyll/jekyll), a static w
 
 ## Setup and build
 
-Jekyll is based on Ruby and RubyGems, which are usually installed by default on Mac. If not, you can install it via brew. To install the jekyll gem itself, type:
+Jekyll is based on Ruby and RubyGems, which are usually installed by default on Mac. If not, you can install it via brew.
+
+Be sure to have Xcode installed on your computer (you can install it from the app store) and also be sure to run it at least once so that it can complete installation of "Additional Components"
+
+To install the jekyll gem itself, type:
 
 ```bash
 sudo gem install jekyll bundler
