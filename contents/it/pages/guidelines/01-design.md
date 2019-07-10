@@ -15,11 +15,11 @@ guidelines-next-link: it-guidelines-02-focus.html
 
 Il primo passo per lo sviluppo di soluzioni digitali appropriate consiste nel comprendere nel miglior modo possibile l'utente o, soprattutto nel caso di persone poco qualificate e poco alfabetizzate, gli utenti del target di riferimento. Dimostrare empatia per le esigenze di questi utenti può essere particolarmente impegnativo perché potrebbero vivere in contesti completamente diversi, in senso letterale e figurativo. Tuttavia, dato che le persone poco qualificate e poco alfabetizzate  sono vulnerabili e spesso sperimentano situazioni di stress, diventa ancora più difficile essere empatici quando si progetta con loro.
 
-Al di là delle caratteristiche generali, per comprendere a fondo i gli utenti, è necessario dedicare del tempo per conoscerli: la loro famiglia, la  comunità e la cultura; il contesto di lavoro; i leader locali ed esperti della comunità; i loro bisogni e problemi; le motivazioni e aspirazioni. Una migliore comprensione degli utenti finali può portare ad una migliore progettazione dei prodotti. Porre le domande giuste aiuterà a costruire una buona immagine degli utenti e del loro ecosistema, ad esempio:
+Al di là delle caratteristiche generali, per comprendere a fondo i gli utenti, è necessario dedicare del tempo per conoscerli: la loro famiglia, la comunità e la cultura; il contesto di lavoro; i leader locali ed esperti della comunità; i loro bisogni e problemi; le motivazioni e aspirazioni. Una migliore comprensione degli utenti finali può portare ad una migliore progettazione dei prodotti. Porre le domande giuste aiuterà a costruire una buona immagine degli utenti e del loro ecosistema, ad esempio:
 
 
 
-## Domande guida sugli utenti/e del target principale 
+## Domande guida sugli utenti/e del target principale
 
 - Chi è l'utente del target principale, la persona a cui il servizio e le informazioni sono direttamente destinati a beneficiare, e chi interagisce maggiormente con esso? Attraverso una piattaforma digitale con molti punti di contatto, questo può essere più di una persona. Ad esempio, la stessa soluzione potrebbe inviare a una mamma una serie di SMS a tema salute per la maternità e permettere ad un funzionario sanitario distrettuale di visualizzare un'analisi del numero di messaggi inviati e a cui ha risposto nel tempo.
 
@@ -59,8 +59,8 @@ title="Lorem ipsum dolor sit amet"
 
 - Quali sono i fattori che influenzano, ad esempio, l'uso della tecnologia, i flussi di informazioni e le attività quotidiane? I fattori possono essere, ad esempio, le tradizioni e i costumi, la cultura, le norme sociali, l'ambiente (urbano o rurale), le infrastrutture tecnologiche e l'economia.
 
-Rispondere a queste domande implica effettuare ricerche approfondite, alcune delle quali possono essere fatte virtualmente e altre sul campo, come si vedrà in seguito. 
- 
+Rispondere a queste domande implica effettuare ricerche approfondite, alcune delle quali possono essere fatte virtualmente e altre sul campo, come si vedrà in seguito.
+
 {% include resourcebox.html
 link="it-guidelines-02-focus.html"
 icon="icon-ux.png"
@@ -86,7 +86,7 @@ Le seguenti attività, per lo più intraprese con gli utenti finali, sono comuni
 - Creare user personas, che sono caratterizzazioni fittizie che catturano, in modo relazionabile, gli attributi chiave - come la demografia, la conoscenza, gli atteggiamenti, le abitudini e le motivazioni - degli utenti.
 
 - Disegnare una mappa del percorso dell’utente e delle attività e processi degli utenti per mostrare l'insieme dei passi e dei possibili percorsi per raggiungere un particolare risultato. Una mappa del percorso dell'utente è utile per evidenziare i punti deboli, le barriere e le opportunità dell'utente. Fornisce informazioni non solo su ciò che diventerà la soluzione digitale, ma anche su questioni correlate, come ad esempio il processo di ingaggio dell'utente.
- 
+
 - Sviluppare scenari dei momenti chiave del viaggio dell'utente, che dettagliano le esigenze specifiche dell'utente in 'storie' chiare e orientate all'azione. Le storie degli utenti descrivono semplicemente ciò che gli utenti devono fare e perché. È fondamentale che le storie scritte dal team di sviluppo siano convalidate attraverso la ricerca dell'utente per garantire che catturino correttamente la realtà.
 
 - Mappare l'ecosistema per identificare e comprendere tutti gli stakeholder e i fattori che devono essere considerati nell'intera progettazione della soluzione. Il coinvolgimento della comunità è utile per creare la mappa dell'ecosistema.
@@ -95,7 +95,7 @@ Le seguenti attività, per lo più intraprese con gli utenti finali, sono comuni
 
 - Test dei contenuti, un componente critico del processo di progettazione - descritto nella prossima linea guida.
 
-Un principio chiave della progettazione incentrata sull'utente è l'iterazione. Sulla base delle conoscenze e delle ricerche iniziali, vengono sviluppati prototipi sui quali gli utenti cercano di dare un feedback. Il design viene adattato di conseguenza e il processo viene ripetuto fino a quando la soluzione soddisfa sufficientemente l'utente. 
+Un principio chiave della progettazione incentrata sull'utente è l'iterazione. Sulla base delle conoscenze e delle ricerche iniziali, vengono sviluppati prototipi sui quali gli utenti cercano di dare un feedback. Il design viene adattato di conseguenza e il processo viene ripetuto fino a quando la soluzione soddisfa sufficientemente l'utente.
 
 
 {% include linkbox.html
@@ -107,7 +107,7 @@ title="Case Study"
 
 # Attenzione alle criticità quando si progetta con utenti poco qualificati e poco alfabetizzati.
 
-Il processo di comprensione degli utenti e del loro ecosistema, così come la valutazione continua degli utenti, comporta ricerche e molti contatti diretti con gli utenti del target. Interviste, osservazioni e test degli utenti sono attività regolari. In generale, i partecipanti agli studi sugli utenti possono essere a disagio perché sentono di essere testati invece di testare il prodotto digitale. 
+Il processo di comprensione degli utenti e del loro ecosistema, così come la valutazione continua degli utenti, comporta ricerche e molti contatti diretti con gli utenti del target. Interviste, osservazioni e test degli utenti sono attività regolari. In generale, i partecipanti agli studi sugli utenti possono essere a disagio perché sentono di essere testati invece di testare il prodotto digitale.
 
 In particolare per gli utenti poco qualificati e poco alfabetizzati, tali attività possono essere intimidatorie. Il risultato è che un feedback onesto e puntuale, fondamentale per la progettazione di soluzioni appropriate, può essere limitato. Gli sviluppatori di soluzioni digitali e le agenzie di sviluppo di solito non provengono dalle comunità con cui stanno lavorando, il che complica ulteriormente l'esperienza. Di seguito è riportata una sintesi delle sfide comuni che sono state incontrate in anni di ricerca, con alcune tecniche suggerite per affrontarle (Thies, 2015).
 
@@ -133,7 +133,7 @@ Per superare alcune di queste sfide, i ricercatori possono:
 {% include linkbox.html
 link="it-guidelines-02-focus.html"
 step="02"
-eye="Successivo" 
+eye="Successivo"
 title="Focus sulle abilità e competenze digitali degli utenti"
 background-image="background-yellow@2x.jpg"
 button-type="arrow"

@@ -3,26 +3,24 @@ permalink: en-conclusion-00-home.html
 # guidelines-section: "guidelines"
 # guidelines-background: "background-01.jpg"
 title: Conclusion
-summary: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
+summary:
 # guidelines-step: "01"
 # guidelines-next-step: "01"
 # guidelines-next-label: "Go to guidelines"
 # guidelines-next-link: en-guidelines-01-design.html
 ---
 
+The guidelines offer a set of recommendations for greater digital inclusion of people with low skills and low literacy. It is hoped that with implementation, more people will be able to access online opportunities. As they use more apps and services, their skills improve, confidence increases and livelihoods benefit.
+As with all guidelines, it is UNESCO’s intention that this remains a living document that is updated over time. Through implementation, guidelines and recommendations are shaped and sharpened. Ideally the organizations that use the guidelines will share their feedback of what has worked, what lessons were learned and any suggestions for additional elements to include.
+To share experiences, please use the feedback template on the UNESCO-Pearson Initiative website: en.unesco.org/themes/literacy-all/pearson-initiative. All feedback will be considered for inclusion on the site.
 
-# Lorem Ipsum dolor sit amet
 
-Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+#  Acknowledgements
 
-Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.
-
-# Lorem Ipsum dolor sit amet
-
-Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-
-Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue.
+This publication is the culmination of the work of numerous individuals and organizations.
+Steven Vosloo of UNESCO authored the guidelines.
+UNESCO is grateful to the following members of the international expert group who provided guidance and input into the guidelines: Louise Albertyn, Ahmad Saad El-dien Anwar, Ken Banks, Laura Brewer, Steven Duggan, Hani Eskandar, Matthew Kam, Jacob Korenblum, Maximiliano Salvadori Martinhão, Bhanu Potta, Jenny Perlman Robinson, Alex Smith and Jacqueline Strecker. Additional input was provided by Cornelius Gregg, Susana Puerto Gonzalez and Clinton Robinson.
+Gratitude is extended to the following UNESCO colleagues for peer reviewing the publication: David Atchoarena, Max Ehlers, Jonghwi Park and Mark West.
+A dedicated project team provided ongoing direction and support. From UNESCO, this included Borhene Chakroun, Gabriela Cieploch and Carolina Belalcazar Canal; from Pearson, Jennifer Young Perlman and Luisa Gockel. Xavier Bryant provided logistical support.
+Additional thanks are owed to the individuals who submitted comments on this publication when it was posted online for public review and those who participated in the guidelines workshop at Mobile Learning Week 2018.
+UNESCO acknowledges the generosity and continued support of Pearson as a partner.
