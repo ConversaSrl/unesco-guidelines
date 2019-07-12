@@ -11,7 +11,7 @@ title: UNESCO Guidelines
 ---
 
 <script>
-	window.location.href = "en-introduction-00-home.html";
+	window.location.href = "en-index.html";
 </script>
 <!-- Scegli una versione:
 

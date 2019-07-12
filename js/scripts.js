@@ -118,7 +118,8 @@ CaseStudiesSlideShow.prototype.nextSlide = function() {
 
 
 CaseStudiesSlideShow.prototype.previousSlide = function() {
-    this.currentSlide = Math.max(1, this.currentSlide-1);
+    if (this.currentSlide <= 1) return;
+    this.currentSlide--;
     this.update(true, true);
     this.scrollToMe();
 }

@@ -72,7 +72,13 @@
     {% endif %}
 
 </head>
-<body>
+
+{% if page.guidelines-background != null %}
+{% assign bodyClasses = "layout-advanced" %}
+{% else %}
+{% assign bodyClasses = "layout-basic" %}
+{% endif %}
+<body class="{{bodyClasses}}">
     <div class="scroll-widget-line"><div class="scroll-widget-line-value"></div></div>
     <div id="header-background-image-container">
         <div id="header-background-image" style="background-image: url(images/{{ page.guidelines-background }});"></div>

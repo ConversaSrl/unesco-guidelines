@@ -70,6 +70,6 @@ background-image="background-purple@2x.jpg"
 %}
 
 
-### Phases of the standard development life cycle
+#### Phases of the standard development life cycle
 
 ![Phases of the standard development life cycle](images/diagram.png)

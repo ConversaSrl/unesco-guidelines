@@ -5,7 +5,7 @@ layout: default
 {% assign stringsFile = "strings_" | append: page.lang %}
 {% assign strings = site.data[stringsFile] %}
 
-{% assign post-header-classes = "" %}
+{% assign post-header-classes = "post-header-without-background" %}
 {% assign content_col_size = "col-md-12" %}
 {% assign content_col_size_extra = "" %}
 
@@ -28,7 +28,7 @@ layout: default
             {% if page.guidelines-background %}
             <p class="next-step">
                 {% if page.guidelines-next-step %}
-                <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">{{strings.next_text}}</span>{{ page.guidelines-next-label }}</a>
+                <a class="next-step-btn" href="{{ page.guidelines-next-link }}"><span class="next-step-number">{{ page.guidelines-next-step }}.&nbsp;</span><span class="next-step-label">{{strings.next_text}}</span><span class="next-step-text">{{ page.guidelines-next-label }}</span></a>
                 {% else %}
                 <a class="next-step-btn"><span class="next-step-number">&nbsp;</span><span class="next-step-label">&nbsp;</span></a>
                 {% endif %}
@@ -63,15 +63,24 @@ layout: default
         
         {% endif %}
 
-        {% if page.summary %}
-        <div class="summary {{ post-header-classes }}">{{page.summary}}</div>
+        {% if page.guidelines-background == null %}
+        <div class="scroll-arrow">
+            <img src="images/scroll-arrow.svg" class="animated fadeInRight delay-1s" width="85" />
+            <div class="scroll-arrow-label animated fadeInRight delay-1s">{{strings.scroll_down_text}}</div>
+        </div>
         {% endif %}
+
+        <div class="summary {{ post-header-classes }}">
+        {% if page.summary %}
+        {{page.summary}}
+        {% endif %}
+        </div>
 
         {% if page.guidelines-background == null %}
         {% if page.guidelines-next-label %}
         <a class="next-step-btn" href="{{ page.guidelines-next-link }}">{{ page.guidelines-next-label }}</a>
         {% else %}
-        <div style="height: 150px;"></div>
+        <!-- <div style="height: 150px;"></div> -->
         {% endif %}
         {% endif %}
     </div>

@@ -71,6 +71,6 @@ background-image="background-purple@2x.jpg"
 %}
 
 
-### Fasi del ciclo di vita standard dello sviluppo
+#### Fasi del ciclo di vita standard dello sviluppo
 
 ![Fasi del ciclo di vita standard dello sviluppo](images/diagram.png)

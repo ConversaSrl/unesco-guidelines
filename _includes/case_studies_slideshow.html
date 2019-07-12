@@ -47,6 +47,7 @@
 		</div>
 	</div>
 
+	{% if slideMax > 1 %}
 	<div class="cs-slideshow-nav">
 		<div class="cs-slideshow-nav-label-index">01</div>
 		<div class="cs-slideshow-nav-label-sep"></div>
@@ -54,6 +55,7 @@
 		<img src="images/arrow-previous.png" onclick="{{slideshowId}}.previousSlide();" />
 		<img src="images/arrow-next.png" onclick="{{slideshowId}}.nextSlide();" />
 	</div>
+	{% endif %}
 
 	<script>
 		{{slideshowId}}.update();

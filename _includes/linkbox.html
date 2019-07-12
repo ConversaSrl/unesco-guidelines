@@ -26,6 +26,18 @@
 {% assign classes = classes | append: " linkbox-vert" %}
 {% endif %}
 
+{% if include.columns == null %}
+{% assign classes = classes | append: " linkbox-max-text-width" %}
+{% assign column_count = 1 %}
+{% else %}
+{% assign column_count = include.columns %}
+{% endif %}
+
+{% assign clickJs = "" %}
+{% if include.link != null %}
+{% assign clickJs = "window.location.href='"" | append: include.link | append: "'" %}
+{% endif %}
+
 
 
 {% if include.image %}
@@ -33,10 +45,18 @@
 	<div class="linkbox-img" style="background-image: url('images/{{include.image}}');"></div>
 {% endif %}
 
+{% assign inlineCss = "background-color: "" | append: bg_color | append: "; " %}
 {% if bg_image != "none" %}
-<div class="{{classes}}" style="background-color: {{bg_color}}; background-image: url('images/{{bg_image}}');" onclick="window.location.href='{{ include.link }}'">
+{% assign inlineCss = inlineCss | append: "background-image: url('images/" | append: bg_image | append: "'); " %}
+{% endif %}
+{% if include.contiguous == true %}
+{% assign inlineCss = inlineCss | append: "padding-top: 0px; margin-top: -90px; " %}
+{% endif %}
+
+{% if clickJs != "" %}
+<div class="{{classes}}" style="{{inlineCss}}" onclick="{{clickJs}}">
 {% else %}
-<div class="{{classes}}" style="background-color: {{bg_color}};" onclick="window.location.href='{{ include.link }}'">
+<div class="{{classes}}" style="{{inlineCss}}" >
 {% endif %}
 	{% if include.step %}
 	<div class="linkbox-field-step">{{include.step}}.</div>
@@ -48,9 +68,12 @@
 	<div class="linkbox-field-title">{{include.title}}</div>
 	{% endif %}
 	{% if include.subtitle %}
-	<div class="linkbox-field-subtitle">{{include.subtitle}}</div>
+<div class="linkbox-field-subtitle" markdown="1" style="column-count: {{column_count}};">
+{{include.subtitle}}
+</div>
 	{% endif %}
 	
+	{% if include.link != null %}
 	{% if include.button-type == "arrow" %}
 	<img src="images/bigarrow.png" class="linkbox-btn linkbox-btn-arrow" />
 	{% else %}
@@ -58,6 +81,7 @@
 		<img src="images/discover-plus-btn.png" />
 		<span class="linkbox-btn-label">{{strings.discover_more_text}}</span>
 	</div>
+	{% endif %}
 	{% endif %}
 </div>
 

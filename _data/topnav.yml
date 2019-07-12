@@ -3,6 +3,9 @@
 topnav:
 - title: Topnav
   items:
+  - title: Home
+    url: /en-index.html
+    submenu: false
   - title: Introduction
     url: /en-introduction-00-home.html
     submenu: false
