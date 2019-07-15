@@ -3,7 +3,8 @@ permalink: en-rationale-00-home.html
 # guidelines-section: "guidelines"
 # guidelines-background: "background-01.jpg"
 title: "Rationale of the guideline"
-summary: "Nisi Lorem do occaecat fugiat. Qui enim mollit nostrud consequat. Ut officia elit nulla eiusmod. Labore fugiat consectetur cupidatat enim do velit velit ipsum. Nisi ullamco irure voluptate et ad consequat ut qui dolor deserunt elit. Dolor exercitation est adipisicing fugiat elit aliquip deserunt anim."
+summary: "As context to the guidelines, it is useful to note that despite the many variances across and
+within communities, and while every user is unique, research (Thies, 2015) has revealed general characteristics of how some low-skilled and low-literate people use technology. These traits are common enough to mention and some of them may apply to the particular audience being targeted."
 # guidelines-step: "01"
 # guidelines-next-step: "01"
 # guidelines-next-label: "Go to guidelines"
@@ -49,7 +50,7 @@ they also teach others how to use the technology, creating a multiplier effect t
 ## Supporting development and inclusion
 
 Digital technologies have been shown to support broad development outcomes, such as contributing to improved health care, education, livelihoods and civic engagement. While the digital divide is real for millions of people, digital technologies also offer the potential for inclusion. When digital solutions are developed for women and rural users, these groups which are traditionally underserved can be included in skills and livelihood development.
-Furthermore, digital skills are increasingly required in workplaces around the world. In developing countries, on average one-third of urban workers use digital technologies at work (World Bank, 2016), making investments in digital skills key to also advance the goal of decent work for all (SDG 8). In this context, the United Nations launched in 2016 the Global Initiative on Decent Jobs for Youth to scale up action and impact on youth employment, including by mobilizing a global commitment to the promotion of digital skills for youth.
+Furthermore, digital skills are increasingly required in workplaces around the world. In developing countries, on average one-third of urban workers use digital technologies at work (World Bank, 2016), making investments in digital skills key to also advance the goal of decent work for all (SDG 8). In this context, the United Nations launched in 2016 the Global Initiative on Decent Jobs for Youth to scale up action and impact on youth employment, including by mobilizing a global commitment to the promotion of digital skills for [youth](https://www.decentjobsforyouth.org/wordpress/wp-content/uploads/2017/11/Thematic-Plan-1-Digital-Skills.pdf).
 
 {% include two-columns-end.html %}
 
@@ -60,6 +61,7 @@ Furthermore, digital skills are increasingly required in workplaces around the w
 
 Acknowledging the barriers to greater digital inclusion and the reasons for addressing them for low-skilled and low-literate users, UNESCO proposes the following theory of change:
 
+![theories](/images/theories.png)
 
 
 # General characteristics of low-skilled and low-literate people and technology
@@ -74,7 +76,7 @@ As context to the guidelines, it is useful to note that despite the many varianc
 Research suggests that low exposure to education means some cognitive skills needed for digital interaction can be underdeveloped. For example, low-literate users can struggle with transferring learning from one setting to another, such as from online instructional videos to implementation in real life. Second, they might find conceptualizing and navigating information hierarchies – such as app menus – more challenging than they are for well- educated users.
 
 ## Trust
-### Low-literate users are scared and sceptical of technology. 
+### Low-literate users are scared and sceptical of technology.
 
 Unsurprisingly, low-literate users are often not confident in their use of digital devices. What this means is that they are scared of touching the technology for fear of breaking it. Even if they don’t break it, they might be seen as not knowing how to use it, causing embarrassment. When they do use technology, they can be easily confused by the user interface (UI), which is usually designed for literate users.
 Further, low-literate users can lack awareness of what digital can deliver, mistrust the technology and doubt that it holds information relevant to their lives.
@@ -94,7 +96,7 @@ Two-thirds of the world’s illiterate population are women (UNESCO-UIS, 2017). 
 
 
 ## Motivation
-### Low-literate users are driven by motivation and aspiration. 
+### Low-literate users are driven by motivation and aspiration.
 
 While successful digital usage is often attributed to good UI, research has shown that motivation is a strong driver for task completion. This is true for all people, but especially relevant when task completion is challenging. For example, despite
 minimum technical knowledge, urban young people in India hungry for entertainment content traversed as many as nineteen steps to transfer music, videos and comedy clips between phones and PCs via Bluetooth. In terms of livelihoods and living, the desire to sell crops for more, the aspiration to raise healthier and more educated children, the need to access government grants or apply for a visa, are the kinds of motivators and aspirations that need to be tapped to engage low-literate users.
