@@ -11,8 +11,8 @@ guidelines-next-link: en-guidelines-00-home.html
 ---
 
 <div class="in-partnership-with-box">
-In partnership with<br/>
-<a href="en-partners.html"><img src="images/footer-logo.png" /></a>
+<!-- In partnership with<br/> -->
+<a href="en-partners.html"><img src="images/unesco-partnership-logo.png" style="margin: 0; margin-top: -23px; margin-right: 43px;" /></a>
 </div>
 
 {% include linkbox.html
