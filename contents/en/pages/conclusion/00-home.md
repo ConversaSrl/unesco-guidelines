@@ -12,7 +12,7 @@ summary:
 
 The guidelines offer a set of recommendations for greater digital inclusion of people with low skills and low literacy. It is hoped that with implementation, more people will be able to access online opportunities. As they use more apps and services, their skills improve, confidence increases and livelihoods benefit.
 As with all guidelines, it is UNESCO’s intention that this remains a living document that is updated over time. Through implementation, guidelines and recommendations are shaped and sharpened. Ideally the organizations that use the guidelines will share their feedback of what has worked, what lessons were learned and any suggestions for additional elements to include.
-To share experiences, please use the feedback template on the UNESCO-Pearson Initiative website: en.unesco.org/themes/literacy-all/pearson-initiative. All feedback will be considered for inclusion on the site.
+To share experiences, please use the feedback template on the [UNESCO-Pearson Initiative website](https://en.unesco.org/themes/literacy-all/pearson-initiative). All feedback will be considered for inclusion on the site.
 
 
 

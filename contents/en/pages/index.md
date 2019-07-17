@@ -11,8 +11,8 @@ guidelines-next-link: en-guidelines-00-home.html
 ---
 
 <div class="in-partnership-with-box">
-In partnership with<br/>
-<a href="en-partners.html"><img src="images/footer-logo.png" /></a>
+<!-- In partnership with<br/> -->
+<a href="en-partners.html"><img src="images/unesco-partnership-logo.png" style="margin: 0; margin-top: -23px; margin-right: 43px;" /></a>
 </div>
 
 {% include linkbox.html
@@ -39,9 +39,9 @@ subtitle="Establishing digital entry points for people with limited literacy and
 {% include linkbox.html
 link="http://www.github.com"
 background-color="pink"
-eye="Download"
-title="Create your own guidelines"
-subtitle="Download the source code of this site on GitHub and read the documentaion to learn how to build your own multi-language  guidelines website.<br><br>"
+eye="Toolkit"
+title="How to make your own guidelines"
+subtitle="Download the source code of this site on GitHub and read the documentation to learn how to build your own multi-language guidelines website."
 inline=1
 %}
 {% include linkbox.html
@@ -49,6 +49,6 @@ link="en-guidelines-01-design.html"
 background-color="blue"
 eye="Community"
 title="Share your experiences"
-subtitle="As with all guidelines, it is UNESCO’s intention that this remains a living document that is updated over time. Through implementation, guidelines and recommendations are shaped and sharpened."
+subtitle="As with all guidelines, it is UNESCO’s intention that this remains a living document that is updated over time. Through implementation, guidelines and recommendations are shaped and sharpened. <br><br>"
 inline=2
 %}
