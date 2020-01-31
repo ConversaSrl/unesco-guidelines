@@ -36,27 +36,27 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: "Progettare con gli utenti, focalizzandosi sulle loro esigenze e sul loro contest"
+    - title: "Progettare con gli utenti, concentrandosi su esigenze e contesti"
       url: /it-guidelines-01-design.html
       guidelines-step: "01"
       output: web, pdf
 
-    - title: "Focus sulle abilità e competenze digitali degli utenti"
+    - title: "Focus sulle capacità digitali degli utenti e sulle loro competenze"
       url: /it-guidelines-02-focus.html
       guidelines-step: "02"
       output: web, pdf
 
-    - title: "Garantire chiarezza e pertinenza dei contenuti per utenti con bassa alfabetizzazione"
+    - title: "Garantire un contenuto chiaro e rilevante"
       url: /it-guidelines-03-content.html
       guidelines-step: "03"
       output: web, pdf
 
-    - title: "Utilizzare supporti appropriati e un'interfaccia su misura per utenti con bassa alfabetizzazione"
+    - title: "Utilizzare supporti appropriati e personalizzare le interfacce"
       url: /it-guidelines-04-media.html
       guidelines-step: "04"
       output: web, pdf
 
-    - title: "Fornire  supporto e una formazione iniziale e continua"
+    - title: "Fornire con continuità formazione e supporto"
       url: /it-guidelines-05-support.html
       guidelines-step: "05"
       output: web, pdf

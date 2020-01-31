@@ -51,13 +51,13 @@ slide1_title="Analyse big data to support sector interventions"
 slide1_text="By tracking farmer usage of each of the Crop Specific Mobile Apps in rural India, the company behind them can identify in which districts farmers need to diversify their crops, where they are diversifying but need guidance, and where new disease outbreaks are likely to be happening.
  Such usage data can be sent to the cloud server via SMS, if needed, to ensure collection in low-connectivity districts. The farmers thus become rich data sources for government interventions triggered at a district
 or state level. Collecting, analysing and passing on the data creates a potential revenue stream for the solution provider."
-slide1_link="http://bit.Ly/khushibabydesign"
-slide1_image="child.jpg"
+slide1_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
+slide1_image="IMG_6aCropSpecificMobileApps.jpg"
 
 slide2_title="Automate quality control of usage and data generation"
 slide2_text="In most developing countries there is a dearth of trained professionals to ensure that children and adults receive auditory tests to monitor for hearing problems. hearScreenTM is an app that allows anyone with very limited training and a headphone set to conduct hearing tests. False positives are sent to the persons administering the test (the screeners), and tracked to see whether they record these as legitimate responses from the patient, to create an individual screener quality index. The index acts as a measure for quality control, and system reports inform supervisors about screeners who need further training."
-slide2_link="http://bit.Ly/khushibabydesign"
-slide2_image="people2.jpg"
+slide2_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
+slide2_image="IMG_6bHearScreen.jpg"
 
 
 %}

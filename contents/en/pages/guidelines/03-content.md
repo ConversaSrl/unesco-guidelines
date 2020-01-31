@@ -48,7 +48,7 @@ By collecting data on which content is played the most, Amplio found that earlie
 As a result of these findings, only five or six messages per content category are loaded onto the device at one time, with the content being updated every three months. In this way information overload is avoided. Further, the most important messages for a given category are given the top three message spots."
 
 slide1_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
-slide1_image="people1.jpg"
+slide1_image="IMG_3aTalkingBook,.jpg"
 
 
 slide2_title="Constant testing reveals the most appropriate content style"
@@ -64,7 +64,7 @@ B: Really?
 A: Yes, and it also promotes positive associations with reading."
 
 slide2_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
-slide2_image="people2.jpg"
+slide2_image="IMG_3bThe3-2-1.jpg"
 
 %}
 
@@ -116,3 +116,12 @@ but proposing a principle that can be applied more broadly, it is suggested that
 Considering **‘multiple planes of engagement’** means that stronger users also remain engaged. This can include more complex features or content. Questions for discussion are equally useful in such cases (Takeuchi and Stevens, 2011).
 
 - When consumed in a group, content that is **aimed at multiple actors** can be effective in increasing engagement. For example, the Talking Book project found that gender relations content became interesting for husbands as well as wives in Ugandan villages.
+
+{% include linkbox.html
+link="en-guidelines-04-media.html"
+step="04"
+eye="Next"
+title="Use appropriate media and tailor user interface for low-skilled and low-literate users"
+background-image="background-green@2x.jpg"
+button-type="arrow"
+%}

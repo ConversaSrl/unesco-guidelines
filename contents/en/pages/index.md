@@ -11,8 +11,8 @@ guidelines-next-link: en-guidelines-00-home.html
 ---
 
 <div class="in-partnership-with-box">
-<!-- In partnership with<br/> -->
-<a href="en-partners.html"><img src="images/unesco-partnership-logo.png" style="margin: 0; margin-top: -23px; margin-right: 43px;" /></a>
+In partnership with<br/>
+<a href="en-partners.html"><img src="images/footer-logo.png" /></a>
 </div>
 
 {% include linkbox.html
@@ -37,7 +37,7 @@ subtitle="Establishing digital entry points for people with limited literacy and
 </div>
 
 {% include linkbox.html
-link="http://www.github.com"
+link="https://github.com/ConversaSrl/unesco-guidelines"
 background-color="pink"
 eye="Toolkit"
 title="How to make your own guidelines"
@@ -45,7 +45,7 @@ subtitle="Download the source code of this site on GitHub and read the documenta
 inline=1
 %}
 {% include linkbox.html
-link="en-guidelines-01-design.html"
+link="#"
 background-color="blue"
 eye="Community"
 title="Share your experiences"

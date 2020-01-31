@@ -3,7 +3,7 @@ permalink: en-guidelines-05-support.html
 guidelines-section: "guidelines"
 guidelines-background: "background-pink@2x.jpg"
 title: Provide initial and ongoing training and support
-summary: "For low-skilled and low-literate users even the simplest technology interactions can be challenging. There is a real need to provide training and support to these users as they encounter digital solutions for the first time – the onboarding process – and then continue with usage. For example, even for the 3-2-1 Service, whose IVR system requires the user only to listen to a range of options and press a number to make a selection, training and support was necessary. Training and support can be provided in the digital solution itself, as well as in real life. Further, raising awareness in the community and leveraging the ‘human network’ is essential to increasing uptake of the digital solution.."
+summary: "For low-skilled and low-literate users even the simplest technology interactions can be challenging. There is a real need to provide training and support to these users as they encounter digital solutions for the first time – the onboarding process – and then continue with usage. For example, even for the 3-2-1 Service, whose IVR system requires the user only to listen to a range of options and press a number to make a selection, training and support was necessary. Training and support can be provided in the digital solution itself, as well as in real life. Further, raising awareness in the community and leveraging the ‘human network’ is essential to increasing uptake of the digital solution."
 guidelines-step: "05"
 guidelines-next-step: "06"
 guidelines-next-label: "Constantly monitor, measure and improve"
@@ -17,7 +17,6 @@ guidelines-next-link: en-guidelines-06-monitor.html
 A level of always-on support can be built into the app or digital service in ways that do not require human intervention:
 
 - Provide **information-presentation support** in the form of help pages, FAQs, tool tips and tutorials. Increasingly, apps that have new sections or first-time users offer on-screen animations and pointers to explain how to use the various features. This can be especially useful to low-skilled and low-literate users. The 3-2-1 Service is trialling a game to teach first-time users how IVR works before they actually use it to access the service.
-
 
 - Provide **machine-automated support**, such as auto-correct of text, auto-suggest or auto- complete of words being entered – features already found in smartphones. Such features often use artificial intelligence (AI), which increases their ability to provide support the more they are used.
 
@@ -50,14 +49,23 @@ A level of always-on support can be built into the app or digital service in way
  slide1_text="Nano Ganesh is a mobile phone-based remote control and monitoring system for agricultural water pumps in India. Often rural farmers experience delays in support services because of the limited resources available. Ossian Agro, the company behind Nano Ganesh, has thus developed a community-based model to train local technicians in installations, repairs and technical support skills to reduce the bottleneck in system delivery. Further, Ossian Agro has created support tools such as orientation multimedia, operating manuals and live video support in local languages for farmers and technicians."
 
  slide1_link="http://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
- slide1_image="people1.jpg"
+ slide1_image="IMG_5aNanoGanesh.jpg"
 
  slide2_title="Mobilize the community for participation"
  slide2_text="For Mobile Vaani, community participation is essential to the success of the media platform. In order to increase community uptake of their digital solution, the organization developed a participation model consisting of a network of local clubs, led by over 300 community reporters and other volunteers interested in the Mobile Vaani initiative. These groups are trained in participatory content generation and are responsible for widening the user base in their regions. The clubs oversee the quality assurance of their content providers to ensure a vibrant and engaging user experience."
 
  slide2_link="http://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
- slide2_image="people2.jpg"
+ slide2_image="IMG_5bMobileVaani.jpg"
 
 
 
+ %}
+
+ {% include linkbox.html
+ link="en-guidelines-06-monitor.html"
+ step="06"
+ eye="Next"
+ title="Constantly monitor, measure and improve"
+ background-image="background-purple@2x.jpg"
+ button-type="arrow"
  %}

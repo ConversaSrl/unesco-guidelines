@@ -23,7 +23,8 @@ and digital skill levels. Since skills are developed through digital usage, it i
 In this way the content progressively builds upon itself. Explicit or implicit assessments can be designed into the solution to gauge user comprehension.
 
 - **Set goals for digital skills and literacy development.** Many development initiatives set impact objectives, for example, more sustainable farming practices in an area or that an education drive to support refugee children will result in an increase in their school enrolment. In the same way, objectives can be set for digital skills and literacy improvement. Setting such goals, which could align to key points along the learning pathway or assessment scores, will focus efforts to develop user’s competences.
-UNESCO is in the process of developing a [_Digital Literacy Global Framework_](https://gemreportunesco.wordpress.com/2018/03/19/a-global-framework-to-measure-digital-literacy/) for the monitoring, assessment and further development of digital literacy that is sensitive to different developmental contexts. It offers a pathway-mapping methodology that is useful for setting and managing digital literacy skills goals. More broadly, the ITU’s [_Digital Skills Toolkit_](https://www.decentjobsforyouth.org/wordpress/wp-content/uploads/2018/04/Digital-Skills-Toolkit.pdf) provides practical information and examples to enhance digital skills development policies and programmes.
+
+- UNESCO is in the process of developing a [_Digital Literacy Global Framework_](https://gemreportunesco.wordpress.com/2018/03/19/a-global-framework-to-measure-digital-literacy/) for the monitoring, assessment and further development of digital literacy that is sensitive to different developmental contexts. It offers a pathway-mapping methodology that is useful for setting and managing digital literacy skills goals. More broadly, the ITU’s [_Digital Skills Toolkit_](https://www.decentjobsforyouth.org/wordpress/wp-content/uploads/2018/04/Digital-Skills-Toolkit.pdf) provides practical information and examples to enhance digital skills development policies and programmes.
 
 - Offer **content in the local language** of the users. The dominance of a few major languages, such as English, and dearth of those spoken by millions of people remains a major reason for digital exclusion. Using a digital service becomes that much more attractive and feasible when it is in a user’s own language, providing a foothold into digital usage and skills development.
 
@@ -60,6 +61,15 @@ Medic Mobile routinely runs pre- and post-training skills tests. Post-test resul
 By benchmarking the users pre- and post-training, Medic Mobile is able to track development. This also informs its practice of pairing low-literate with higher-literate CHWs, to provide peer support."
 
 slide1_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
-slide1_image="medic_mobile.jpg"
+slide1_image="IMG_2aMedicMobile.jpg"
 
+%}
+
+{% include linkbox.html
+link="en-guidelines-03-content.html"
+step="03"
+eye="Next"
+title="Ensure the clarity and relevance of content for low-skilled and low-literate users"
+background-image="background-red@2x.jpg"
+button-type="arrow"
 %}

@@ -65,7 +65,16 @@ background-color="blue"
 slide1_title="Design for users’ particular context"
 slide1_text="ABALOBI is a suite of mobile apps that targets small-scale fishers – both men and women – from South Africa’s coastal communities along different stages of the service chain, from harvest to post- harvest activities. In fine-tuning the UI and user experience of the mobile apps, one key design aspect the team had to consider
 was that South African fishers work in cold waters and develop pronounced calluses on their hands. The team took account of this reality amongst its users by choosing to move to large checkboxes, drop-down arrows and other clickable icons, interface features more usable by those whose fingers have low sensitivity."
-slide1_link="en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
-slide1_image="mobile_app.jpg"
+slide1_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
+slide1_image="IMG_4aABALOBI.jpg"
 
+%}
+
+{% include linkbox.html
+link="en-guidelines-05-support.html"
+step="05"
+eye="Next"
+title="Provide initial and ongoing training and support"
+background-image="background-pink@2x.jpg"
+button-type="arrow"
 %}

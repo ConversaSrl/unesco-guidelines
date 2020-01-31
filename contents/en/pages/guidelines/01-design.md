@@ -47,7 +47,7 @@ In order to understand the needs and local context for the solution, team member
 
 The entire user-centred design journey has been documented, and includes key findings from the field studies, paper prototypes and wireframes, early solution designs, user testing feedback and ongoing solution iterations."
 slide1_link="http://bit.Ly/khushibabydesign"
-slide1_image="people1.jpg"
+slide1_image="IMG_1aKhushiBaby.jpg"
 
 
 
@@ -67,7 +67,7 @@ Events workshops promoted the MOPA prototype across Maputo to attract local soft
 
 
 slide2_link="https://en.unesco.org/themes/literacy-all/pearson-initiative/case-studies"
-slide2_image="people2.jpg"
+slide2_image="IMG_1bMOPA.jpg"
 
 
 
