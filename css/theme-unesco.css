@@ -957,9 +957,20 @@ footer li.section-link a:hover {
 .footer-partners {
     font-size: 9px;
     text-transform: uppercase;
+    width: 100%;
+    height: 84px;
 }
-.footer-partners img {
-    max-width: 100%;
+.footer-partners .logo_container {
+    text-align: center;
+}
+.footer-partners .logo_unesco:hover {
+    background-image: url('../images/logo_unesco_hover_white.png');
+}
+.footer-partners .logo_pearson:hover {
+    background-image: url('../images/logo_pearson_hover_white.png');
+}
+.footer-partners .logo_fondazione_scuola:hover {
+    background-image: url('../images/logo_fondazione_scuola_hover_white.png');
 }
 
 @media (min-width: 992px) {
@@ -993,11 +1004,14 @@ footer li.section-link a:hover {
     }
     .footer-partners {
         position: absolute;
-        max-width: 72%;
+        width: 450px;
         right: 0px;
         bottom: 0px;
         margin-bottom: 50px;
         margin-right: 70px;
+    }
+    .footer-partners .logo_container {
+        text-align: right;
     }
 }
 
@@ -1713,14 +1727,53 @@ ul.mobile-menu li a {
     }
 }
 
+.logo_container {
+    position: relative;
+    /* margin-top: 10px; */
+    height: 100%;
+    text-align: right;
+}
+.logo_container a:after {
+    content: none;
+}
 
-
-
-
+.logo {
+    position: relative;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+.logo_unesco {
+    width: 34%;
+    height: 100%;
+    background-image: url('../images/logo_unesco.png');
+}
+.in-partnership-with-box .logo_unesco:hover {
+    background-image: url('../images/logo_unesco_hover_black.png');
+}
+.logo_pearson {
+    width: 34%;
+    height: 100%;
+    background-image: url('../images/logo_pearson.png');
+}
+.in-partnership-with-box .logo_pearson:hover {
+    background-image: url('../images/logo_pearson_hover_black.png');
+}
+.logo_fondazione_scuola {
+    width: 27%;
+    height: 100%;
+    background-image: url('../images/logo_fondazione_scuola.png');
+}
+.in-partnership-with-box .logo_fondazione_scuola:hover {
+    background-image: url('../images/logo_fondazione_scuola_hover_black.png');
+}
 
 .in-partnership-with-box {
     position: absolute;
-    top: -325px;
+    width: 656px;
+    height: 124px;
+    top: -334px;
     right: 25px;
     text-align: right;
     text-transform: uppercase;
@@ -1730,6 +1783,16 @@ ul.mobile-menu li a {
     font-weight: bold;
     letter-spacing: 2.4px;
     line-height: 10px;
+}
+@media (max-width: 1199px) {
+    .in-partnership-with-box {
+        width: 500px;
+    }
+}
+@media (max-width: 992px) {
+    .in-partnership-with-box {
+        width: 350px;
+    }
 }
 @media (max-width: 767px) {
     .in-partnership-with-box {
@@ -1743,6 +1806,9 @@ ul.mobile-menu li a {
     }
     .layout-basic .next-step-btn {
         width: 100%;
+        text-align: center;
+    }
+    .logo_container {
         text-align: center;
     }
     /* .in-partnership-with-box img {

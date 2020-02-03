@@ -89,6 +89,8 @@
 <div class="container">
     {% if page.guidelines-background != null %}
     {% assign menuAdditionalClasses = "inverted" %}
+    {% else %}
+    {% assign menuAdditionalClasses = "" %}
     {% endif %}
     <div class="mobile-menu-wrapper {{menuAdditionalClasses}}">
         <ul class="mobile-menu">

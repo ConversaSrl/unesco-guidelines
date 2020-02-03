@@ -10,9 +10,14 @@ Fortunatamente, l'esclusione digitale è sempre più evitabile."
 guidelines-next-label: "Vai alle Linee Guida"
 guidelines-next-link: it-guidelines-00-home.html
 ---
+
 <div class="in-partnership-with-box">
-In partnership with<br/>
-<a href="en-partners.html"><img src="images/footer-logo.png" /></a>
+	<!-- In partnership with<br/> -->
+	<div class="logo_container">
+		<a href="https://www.fondazionescuola.it/"><div class="logo logo_fondazione_scuola"></div></a>
+		<a href="https://en.unesco.org/themes/literacy-all/pearson-initiative/guidelines"><div class="logo logo_unesco"></div></a>
+		<a href="https://en.unesco.org/themes/literacy-all/pearson-initiative/guidelines"><div class="logo logo_pearson"></div></a>
+	</div>
 </div>
 
 {% include linkbox.html

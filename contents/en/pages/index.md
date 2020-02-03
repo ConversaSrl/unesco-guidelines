@@ -2,7 +2,7 @@
 permalink: en-index.html
 guidelines-section: "guidelines"
 # guidelines-background: "background-blue.jpg"
-title: Designing Inclusive Digital Solutions and Developing Digital Skills
+title: "Designing Inclusive Digital Solutions and Developing Digital Skills"
 summary: "In an increasingly online world, people need digital skills and literacy to work, live, learn and communicate productively. Without these skills, people face marginalisation not only in the physical world but in digital realms as well. Fortunately, digital exclusion is increasingly avoidable."
 # guidelines-step: "01"
 # guidelines-next-step: "02"
@@ -11,8 +11,12 @@ guidelines-next-link: en-guidelines-00-home.html
 ---
 
 <div class="in-partnership-with-box">
-In partnership with<br/>
-<a href="en-partners.html"><img src="images/footer-logo.png" /></a>
+	<!-- In partnership with<br/> -->
+	<div class="logo_container">
+		<a href="https://www.fondazionescuola.it/"><div class="logo logo_fondazione_scuola"></div></a>
+		<a href="https://en.unesco.org/themes/literacy-all/pearson-initiative/guidelines"><div class="logo logo_unesco"></div></a>
+		<a href="https://en.unesco.org/themes/literacy-all/pearson-initiative/guidelines"><div class="logo logo_pearson"></div></a>
+	</div>
 </div>
 
 {% include linkbox.html
