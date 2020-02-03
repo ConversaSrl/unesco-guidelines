@@ -19,16 +19,18 @@
             </button> -->
             {% if page.guidelines-background != null %}
             {% assign menuTogglerAdditionalClasses = "inverted" %}
+            {% else %}
+            {% assign menuTogglerAdditionalClasses = "" %}
             {% endif %}
             <div class="guidelines-menu-toggler burger burger-squeeze {{menuTogglerAdditionalClasses}}">
                 <div class="burger-lines"></div>
             </div>
 
-            <a href="{{page.lang}}-index.html"><img class="toplogo" src="{{ log_img }}"/></a>
+            <!-- <a href="{{page.lang}}-index.html"><img class="toplogo" src="{{ log_img }}"/></a> -->
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-left">
 
 {% assign topnav = site.data[page.topnav] %}
 {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}

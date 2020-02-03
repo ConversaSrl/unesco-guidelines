@@ -1,7 +1,7 @@
 ---
 permalink: en-guidelines-00-home.html
 guidelines-section: "focus"
-# guidelines-background: "background-01.jpg"
+# guidelines-background: "background-blue.jpg"
 title: "Guidelines and Recommendations"
 summary: "Drawing on the general characteristics of how low-skilled and low-literate people use technology, and the need for skills development, the following guidelines and recommendations offer a pathway to designing and implementing digital solutions that are more inclusive for users who need the most support. The guidelines should be applied throughout the phases of the standard product development life cycle."
 # guidelines-step: "01"
