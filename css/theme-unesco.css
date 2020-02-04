@@ -141,7 +141,7 @@ a[data-toggle="tooltip"] {
     min-height: 100px;
     margin-bottom: 0px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .navbar {
         min-height: 58px;
     }
@@ -285,7 +285,7 @@ body {
     margin-top: 110px;
     margin-bottom: 45px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .layout-advanced .post-content h1 {
         font-size: 30px;
         line-height: 38px;
@@ -627,6 +627,24 @@ nav.navbar {
         /* hyphens: auto;
         -ms-hyphens: auto;
         -webkit-hyphens: auto; */
+        font-size: 65px;
+        line-height: 70px;
+    }
+    .layout-basic .post-title-main {
+        font-size: 70px;
+        font-weight: 300;
+        line-height: 74px;
+    }
+    .layout-advanced .post-title-main {
+        height: 300px;
+        -webkit-line-clamp: 6;
+    }
+}
+@media (max-width: 767px) {
+    .post-title-main {
+        /* hyphens: auto;
+        -ms-hyphens: auto;
+        -webkit-hyphens: auto; */
         font-size: 35px;
         line-height: 40px;
     }
@@ -649,10 +667,10 @@ nav.navbar {
     max-width: 840px;
     color: #4A4A4A;
     font-family: Roboto;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 0.21px;
-    line-height: 27px;
+    line-height: 35px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -666,7 +684,7 @@ nav.navbar {
     margin-top: 0px;
     margin-bottom: 90px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .summary.post-header-with-background {
         font-size: 18px;
         line-height: 30px;
@@ -1570,7 +1588,7 @@ ul.mobile-menu li a {
     color: white;
     overflow: hidden;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .cs-slideshow-content-title {
         font-size: 30px;
         line-height: 38px;
@@ -1603,7 +1621,7 @@ ul.mobile-menu li a {
     letter-spacing: 0.38px;
     line-height: 27px;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .cs-slideshow-content-link {
         font-size: 16px;
     }
@@ -1650,9 +1668,6 @@ ul.mobile-menu li a {
 }
 
 @media (max-width: 992px) {
-    .cs-slideshow-nav-label-count {
-        margin-right: 20px;
-    }
     .cs-slideshow-img-wrapper {
         height: 372px;
         width: 100%;
@@ -1673,6 +1688,11 @@ ul.mobile-menu li a {
     }
     .cs-slideshow-nav {
         left: 0px
+    }
+}
+@media (max-width: 767px) {
+    .cs-slideshow-nav-label-count {
+        margin-right: 20px;
     }
 }
 
