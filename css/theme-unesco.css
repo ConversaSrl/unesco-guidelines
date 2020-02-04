@@ -802,7 +802,7 @@ nav.navbar {
     height: 123px;
     width: 278px;
     background-color: #F9F9F9;
-    box-shadow: 0 22px 44px 0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 15px 44px 0;
 }
 
 .scroll-widget-label {
