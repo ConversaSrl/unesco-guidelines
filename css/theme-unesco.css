@@ -141,6 +141,11 @@ a[data-toggle="tooltip"] {
     min-height: 100px;
     margin-bottom: 0px;
 }
+@media (max-width: 991px) {
+    .navbar {
+        min-height: 58px;
+    }
+}
 
 .nav.navbar-nav {
     margin-top: 48px;
@@ -281,6 +286,10 @@ body {
     margin-bottom: 45px;
 }
 @media (max-width: 991px) {
+    .layout-advanced .post-content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
     .layout-basic .post-content h1 {
         font-size: 35px;
         line-height: 38px;
@@ -591,6 +600,7 @@ nav.navbar {
     letter-spacing: 5.93px;
     line-height: 13px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .post-header.post-header-with-background .post-title-section {
     color: rgba(255, 255, 255, 0.6); /*#4299FF;*/
@@ -608,22 +618,22 @@ nav.navbar {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    text-overflow: ellipsis;
+    /* text-overflow: ellipsis; */
     overflow: hidden;
     height: 287px;
 }
 @media (max-width: 991px) {
     .post-title-main {
-        hyphens: auto;
+        /* hyphens: auto;
         -ms-hyphens: auto;
-        -webkit-hyphens: auto;
-        font-size: 45px;
-        line-height: 50px;
+        -webkit-hyphens: auto; */
+        font-size: 35px;
+        line-height: 40px;
     }
     .layout-basic .post-title-main {
-        font-size: 70px;
+        font-size: 40px;
         font-weight: 300;
-        line-height: 74px;
+        line-height: 44px;
     }
     .layout-advanced .post-title-main {
         height: 300px;
@@ -655,6 +665,12 @@ nav.navbar {
     line-height: 41px;
     margin-top: 0px;
     margin-bottom: 90px;
+}
+@media (max-width: 991px) {
+    .summary.post-header-with-background {
+        font-size: 18px;
+        line-height: 30px;
+    }
 }
 
 .next-step {
@@ -1433,6 +1449,11 @@ transition: .2s background-color, .2s top, .2s left, .2s transform .15s;
     right: 40px;
     top: 70px;
 }
+@media (max-width: 991px) {
+    .guidelines-menu-toggler {
+        top: 32px;
+    }
+}
 
 
 .mobile-menu-wrapper {
@@ -1549,6 +1570,13 @@ ul.mobile-menu li a {
     color: white;
     overflow: hidden;
 }
+@media (max-width: 991px) {
+    .cs-slideshow-content-title {
+        font-size: 30px;
+        line-height: 38px;
+        overflow: visible;
+    }
+}
 
 .cs-slideshow-content-text {
     font-size: 18px;
@@ -1574,6 +1602,11 @@ ul.mobile-menu li a {
     font-weight: 300;
     letter-spacing: 0.38px;
     line-height: 27px;
+}
+@media (max-width: 991px) {
+    .cs-slideshow-content-link {
+        font-size: 16px;
+    }
 }
 
 .cs-slideshow-content-link:hover,
@@ -1617,6 +1650,9 @@ ul.mobile-menu li a {
 }
 
 @media (max-width: 992px) {
+    .cs-slideshow-nav-label-count {
+        margin-right: 20px;
+    }
     .cs-slideshow-img-wrapper {
         height: 372px;
         width: 100%;
