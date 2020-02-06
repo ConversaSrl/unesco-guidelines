@@ -3,7 +3,7 @@ permalink: it-guidelines-05-support.html
 guidelines-section: "linee guida"
 guidelines-background: "background-pink@2x.jpg"
 title: Fornire con continuità formazione e supporto
-summary: "Per utenti poco qualificati e scarsamente alfabetizzati anche le interazioni tecnologiche più semplici possono rappresentare una sfida. È fondamentale fornire formazione e supporto iniziali e continuativi a questi utenti quando incontrano le soluzioni digitali per la prima volta - processo di integrazione - e poi continuare a fornirgliele durante l'uso. Ad esempio, anche per il 3-2-1 Service, il cui sistema IVR richiede all'utente di ascoltare una gamma di opzioni e premere un numero per effettuare una selezione, si sono rese necessarie formazione e supporto. La formazione e il supporto possono essere forniti nella soluzione digitale stessa, così come offline, nella vita reale. Sensibilizzare la comunità e sfruttare la “rete umana” è essenziale per aumentare la diffusione delle soluzioni digitali."
+summary: "Per utenti poco qualificati e scarsamente alfabetizzati anche le interazioni tecnologiche più semplici possono rappresentare una sfida. È fondamentale fornire formazione e supporto iniziali e continuativi a questi utenti quando incontrano le soluzioni digitali per la prima volta - processo di integrazione - e poi continuare a fornirgliele durante l'uso. Ad esempio, anche per il 3-2-1 Service, il cui sistema IVR (risposta vocale interattiva) richiede all'utente di ascoltare una gamma di opzioni e premere un numero per effettuare una selezione, si sono resi necessari formazione e supporto, che possono essere forniti nella soluzione digitale stessa, così come offline, nella vita reale. Sensibilizzare la comunità e sfruttare la “rete umana” è essenziale per aumentare la diffusione delle soluzioni digitali."
 guidelines-step: "05"
 guidelines-next-step: "06"
 guidelines-next-label: "Monitorare, misurare e migliorare costantemente."
@@ -20,13 +20,13 @@ Un livello di supporto sempre attivo può essere integrato nelle app o nei servi
 
 - Fornire **supporto automatizzato**, come la correzione del testo, i suggerimenti o i completamenti automatici di parole inserite, caratteristiche che si trovano già negli smartphone. Tali elementi spesso usano l'intelligenza artificiale (AI), e tanto più sono utilizzati tanto più aumenta la loro capacità di fornire un supporto efficace.
 
-- Utilizzare potenzialmente la recente aggiunta di **chatbot** in servizi di messaggistica istantanea come Facebook Messenger e Telegram, che forniscono il supporto automatizzato in modo più interattivo. Gli utenti che hanno alcune abilità di lettura e digitali possono trarre beneficio dal supporto fornito dalla conversazione.
+- Utilizzare potenzialmente la recente aggiunta di **chatbot** in servizi di messaggistica istantanea come Facebook Messenger e Telegram, che forniscono un supporto automatizzato in modo più interattivo. Gli utenti che hanno alcune abilità di lettura e digitali possono trarre beneficio dal supporto fornito dalla conversazione.
 
 
 # Massimizzare gli elementi umani nella formazione e nel supporto
 
 
- La formazione e il supporto fornito dai singoli individui dà un volto umano all'interazione tecnologica. Nei case study di UNESCO-Pearson, CHWs, volontari e team di progetto forniscono assistenza faccia a faccia agli utenti finali. 
+ La formazione e il supporto fornito dai singoli individui dà un volto umano all'interazione tecnologica. Nei case study di UNESCO-Pearson, gli operatori sanitari comunitari, i volontari e i team di progetto forniscono assistenza faccia a faccia agli utenti finali.
  Per massimizzare l'elemento umano e per sensibilizzare e aumentare la consapevolezza e diffusione sono raccomandati i seguenti approcci:
 
 

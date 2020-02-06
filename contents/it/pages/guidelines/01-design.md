@@ -58,7 +58,7 @@ I workshop di approfondimento hanno aiutato ad analizzare il complesso sistema d
 
 I workshop di raccolta hanno evidenziato le risorse di dati funzionanti e le lacune da colmare per l'ottimizzazione del servizio. Questi workshop hanno portato ad una campagna di mappatura dei siti di raccolta dei rifiuti fisici a Maputo.
 
-I workshop di validazione hanno testato le iterazioni di progettazione della piattaforma con un'enfasi sull'adeguatezza alle competenze della base di utenti prevista.
+I workshop di validazione hanno testato le iterazioni di progettazione della piattaforma con particolare attenzione all'adeguatezza delle competenze base degli utenti utilizzatori.
 
 I workshop di eventi hanno promosso il prototipo MOPA in tutta Maputo al fine di attirare gli sviluppatori locali di software ad interessarsi all’ottimizzazione del software design e delle funzionalità."
 
@@ -75,11 +75,11 @@ slide2_image="IMG_1bMOPA.jpg"
 
 ## Domande guida sulle connessioni umane
 
-- Chi sono gli utilizzatori **secondari che influenzano gli utenti**? In altre parole, da chi è circondato l’utente? Per le persone poco qualificate e particolarmente per coloro che hanno scarsa alfabetizzazione, è fondamentale individuare queste **connessioni umane**, individuando eventuali attori complementari che potrebbero essere di supporto ai destinatari principali e allo sviluppo di competenze.
+- Chi sono gli utilizzatori **secondari che influenzano gli utenti**? In altre parole, da chi è circondato l’utente? Per le persone poco qualificate e particolarmente per coloro che hanno scarsa alfabetizzazione, è fondamentale individuare queste **connessioni umane**, cercando eventuali attori complementari che potrebbero essere di supporto ai destinatari principali e allo sviluppo di competenze.
 
 - Poiché le persone poco alfabetizzate spesso si affidano agli altri per informazioni e aiuto nell'uso della tecnologia, è utile chiedersi **come usufruiscono di essa e dei testi scritti**. Con chi consumano contenuti e quale ruolo giocano gli “infomediari”?
 
-- Chi **influenza il comportamento**? Ad esempio, un marito potrebbe filtrare le informazioni destinate alla moglie o il leader di una comunità potrebbe tenere dei corsi sull’utilizzo del digitale. 
+- Chi **influenza il comportamento**? Ad esempio, un marito potrebbe filtrare le informazioni destinate alla moglie o il leader di una comunità potrebbe tenere dei corsi sull’utilizzo del digitale.
 
 - Chi sono le **persone e gli attori** che godono di fiducia nella comunità? Chi altro oltre agli utenti dev’essere considerato per la comprensione e la progettazione della soluzione?
 
@@ -95,7 +95,7 @@ Rispondere a queste domande implica ricerche significative, alcune delle quali p
 
 
 
-# Seguire le migliori pratiche di progettazione centrate sull'utente
+# Seguire le migliori pratiche di progettazione incentrate sull'utente
 
 Ci sono molti strumenti e pratiche per rispondere alle domande precedenti e progettare davvero insieme agli utenti. Un principio fondamentale è porre l’utilizzatore al centro del processo di progettazione: questo è un approccio allo sviluppo di soluzioni digitali guidate dalle esigenze, dalle capacità e dal contesto degli utenti.
 Nella ricerca è necessario coinvolgere l’ampia rete umana intorno agli utenti destinatari, ad esempio mariti o mogli, operatori sanitari, leader di comunità o colleghi e superiori. In ultima analisi, tutte le ricerche dovrebbero fare chiarezza sulla natura e la portata delle necessità o dei problemi da affrontare.
@@ -111,9 +111,9 @@ Le seguenti attività consigliate, per lo più intraprese con gli utenti finali,
 
 - **Mappare l'ecosistema** per identificare e comprendere tutti gli stakeholder e i fattori che devono essere considerati per progettare le soluzioni. Il coinvolgimento della comunità è fondamentale per creare la mappa dell'ecosistema.
 
-- **Progettare prototipi di livello elementare, e solo in seguito aumentarne il dettaglio** della soluzione digitale. Se i wireframe di basso livello e i prototipi di carta possono mancare di dettagli particolareggiati, hanno però il vantaggio di essere economici e di poter essere collaudati e testati rapidamente senza disperdere energie sull'estetica. Consentono inoltre agli sviluppatori di ottenere un feedback preliminare sull’interfaccia utente generale, compreso il flusso di navigazione e la lingua, per capire se vi sia coerenza con i modelli mentali degli utenti. I prototipi si prestano poi a stimolare discussioni con gli utenti per comprendere meglio i problemi legati allo sviluppo delle soluzioni.
+- **Progettare prototipi di livello elementare, solo in seguito aumentarne il dettaglio** della soluzione digitale. Se i wireframe di basso livello e i prototipi di carta possono mancare di dettagli particolareggiati, hanno però il vantaggio di essere economici e di poter essere collaudati e testati rapidamente senza disperdere energie sull'estetica. Consentono inoltre agli sviluppatori di ottenere un feedback preliminare sull’interfaccia utente (UI), compreso il flusso di navigazione e la lingua, per capire se vi sia coerenza con i modelli mentali degli utent. I prototipi sono utili a stimolare discussioni con gli utenti per comprendere meglio i problemi legati allo sviluppo delle soluzioni.
 
-- **Test dei contenuti**, componente fondamentale del processo di progettazione - descritto in seguito nella prossima linea-guida.
+- ** Il test dei contenuti** è una componente fondamentale del processo di progettazione - sarà descritto nella prossima linea-guida.
 
 Un principio chiave della progettazione incentrata sull'utente è l'iterazione. Sulla base di conoscenze e ricerche iniziali, si sviluppano prototipi su cui gli utenti tentano di fornire un feedback. Il design si adatta di conseguenza e il processo si ripete fino a quando si trova una soluzione che soddisfi sufficientemente le esigenze dell'utente. Un approccio incrementale di questo tipo è la chiave per rimanere su brevi loop di progettazione-test-regolazione e validazione finale.
 
@@ -121,10 +121,10 @@ Un principio chiave della progettazione incentrata sull'utente è l'iterazione. 
 
 # Le sfide durante la progettazione per gli utenti poco qualificati e alfabetizzati
 
-Le valutazioni sui consumatori, così come sui loro processi di comprensione e sul loro ecosistema, comportano il contatto diretto con gli utenti destinatari. Interviste, osservazioni e test sono attività regolari, ma i partecipanti possono sentirsi a disagio percependosi come oggetto dello studio e non comprendendo che il test è invece strumentale alla realizzazione della soluzione digitale. 
- Per utenti scarsamente qualificati e con basse competenze queste attività di test possono risultare intimidatorie. Il rischio è che i feedback, fondamentali per la progettazione di soluzioni appropriate, possano essere limitati. Inoltre, gli sviluppatori di soluzioni digitali e le agenzie di sviluppo di solito non provengono dalle comunità con cui lavorano, e questo aspetto complica ulteriormente l'esperienza. Di seguito è riportata una sintesi delle sfide comuni che sono state riscontrare in anni di ricerca, con alcune tecniche suggerite per affrontarle. (Thies, 2015).
+Le valutazioni sui consumatori, così come sui loro processi di comprensione e sul loro ecosistema, comportano il contatto diretto con gli utenti destinatari. Interviste, osservazioni e test sono attività regolari, ma i partecipanti possono sentirsi a disagio percependosi come oggetto dello studio e non comprendendo che il test è invece strumentale alla realizzazione del prodotto digitale.
+ Per utenti scarsamente qualificati e con basse competenze queste attività di test possono risultare intimidatorie, quinidi il rischio è che i feedback, fondamentali per la progettazione di soluzioni appropriate, possano essere limitati. Inoltre, gli sviluppatori e le agenzie di sviluppo di solito non provengono dalle comunità con cui lavorano, e questo aspetto complica ulteriormente l'esperienza. Di seguito è riportata una sintesi delle sfide comuni che sono state riscontrare in anni di ricerca, con alcune tecniche suggerite per affrontarle. (Thies, 2015).
 
-- Spesso i ricercatori vengono percepiti, dalle persone studiate, come aventi uno status sociale più elevato e inoltre sono visti come i creatori degli strumenti digitali, compresi i telefoni cellulari, anche quando questo non è vero. Di conseguenza, le persone con scarsa alfabetizzazione sono particolarmente inclini a dare **risposte parziali**. Cioè, quando gli viene posta una domanda rispondono con quello che pensano l'intervistatore voglia sentire e non forniscono un’opinione sincera.
+- Spesso i ricercatori vengono percepiti, dalle persone studiate, come aventi uno status sociale più elevato e inoltre sono visti come i creatori degli strumenti digitali, compresi i telefoni cellulari, anche quando questo non è vero. Di conseguenza, le persone con scarsa alfabetizzazione sono particolarmente inclini a dare **risposte parziali**. Cioè, quando gli viene posta una domanda dicono quello che pensano l'intervistatore voglia sentire e non forniscono un’opinione sincera.
 
 - I ricercatori spesso non parlano la stessa lingua degli utenti con cui lavorano e si avvalgono di interpreti e facilitatori locali per fornire assistenza. Se questi non sono adeguatamente formati, tuttavia, spesso il senso delle risposte degli utenti può **perdersi nella traduzione**. Inoltre, usando un interprete, la parzialità o la distorsione della risposta sullo strumento digitale aumenta di cinque volte (Dell et al., 2012).
 

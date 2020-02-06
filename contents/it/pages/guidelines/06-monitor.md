@@ -3,7 +3,7 @@ permalink: it-guidelines-06-monitor.html
 guidelines-section: "linee guida"
 guidelines-background: "background-purple@2x.jpg"
 title: Monitorare, misurare e migliorare costantemente
-summary: "Con le soluzioni digitali è possibile monitorare costantemente l'attività dell'utente, il consumo e la creazione di contenuti. L'analisi dei dati di utilizzo è fondamentale per gestire un sistema efficace. Può indicare se gli obiettivi del progetto e dell'utente siano stati raggiunti e, in caso contrario, può indicare dove potrebbero essere necessarie modifiche. In un approccio di sviluppo iterativo, l'utilizzo di dati e l'analisi informano sul miglioramento del sistema.
+summary: "Con le soluzioni digitali è possibile monitorare costantemente l'attività dell'utente, il consumo e la creazione di contenuti. L'analisi dei dati di utilizzo è fondamentale per gestire un sistema efficace. Può indicare se gli obiettivi del progetto e dell'utente siano stati raggiunti e, in caso contrario, suggerire dove possono essere necessarie modifiche. In un approccio di sviluppo iterativo, l'utilizzo di dati e l'analisi informano sul miglioramento del sistema.
 I dati raccolti devono essere adeguati e monitorati in modo sicuro e responsabile."
 guidelines-step: "06"
 # guidelines-next-step: "Conclusion"
@@ -12,7 +12,7 @@ guidelines-step: "06"
 ---
 
 
-# Accertarsi che siano raccolti dati adeguati e che siano monitorati in modo sicuro e responsabile 
+# Accertarsi che siano raccolti dati adeguati e che siano monitorati in modo sicuro e responsabile
 
 Ove possibile, è ideale creare profili utente – di individui e/o gruppi segmentati – per capire se la soluzione digitale soddisfi o meno le loro esigenze, nonché se stia rispondendo agli obiettivi del progetto. Definire le regole per raccogliere e analizzare i dati in modo responsabile è fondamentale per la tutela degli utenti e dell'organizzazione stessa.
 
@@ -29,15 +29,15 @@ Ove possibile, è ideale creare profili utente – di individui e/o gruppi segme
 
 
 
-# Includere ttutte le parti interessate nell'analisi dei dati
+# Includere tutte le parti interessate nell'analisi dei dati
 
 I dati non sono rilevanti solo per gli sviluppatori della soluzione digitale mentre le gestiscono e le migliorano, ma possono essere presentati agli utenti reali, dai rifugiati ai funzionari del governo, perché possano utilizzarli ad esempio per migliorare le attività di sostentamento. Si raccomandano le seguenti attività:
 
-- **Mappare e soddisfare le esigenze di tutti gli stakeholder interessati dall'utente**. Diversi gruppi di utenti hanno differenti ruoli nella produzione e fornitura di dati, cosi come diverse necessità di informazione. Khushi Baby fornisce un buon esempio di come vengono raccolti, aggregati e analizzati i dati lungo la catena di interazione degli utenti per supportare efficacemente i processi decisionali a livello distrettuale in relazione all'amministrazione sanitaria. Le madri e gli operatori sanitari partecipano attivamente, e in tempo reale, alla generazione dei dati poi usati per interventi sulla programmazione e sulla policy. A loro volta, beneficiano dell'analisi dei dati, che informa sul trattamento che ricevono o amministrano. Ognuno dei tre gruppi di utenti - madri, CHW e funzionari distrettuali - si interfacciano alla soluzione digitale con lo strumento tecnologico più adatto alle loro capacità: rispettivamente collane indossabili per la raccolta dati, app di raccolta dati mobili e basate sul web dashboard.
+- **Mappare e soddisfare le esigenze di tutti gli stakeholder interessati dall'utente**. Diversi gruppi di utenti hanno differenti ruoli nella produzione e fornitura di dati, cosi come diverse necessità di informazione. Khushi Baby fornisce un buon esempio di come vengono raccolti, aggregati e analizzati i dati lungo la catena di interazione degli utenti per supportare efficacemente i processi decisionali a livello distrettuale in relazione all'amministrazione sanitaria. Le madri e gli operatori sanitari partecipano attivamente, e in tempo reale, alla generazione dei dati poi usati per interventi sulla programmazione e sulla policy. A loro volta, beneficiano dell'analisi dei dati, che informa sul trattamento che ricevono o amministrano. Ognuno dei tre gruppi di utenti - madri, operatori sanitari comunitari e funzionari distrettuali - si interfacciano alla soluzione digitale con lo strumento tecnologico più adatto alle loro capacità: rispettivamente collane indossabili per la raccolta dati, app di raccolta dati mobili e web dashboard.
 
 - **Sfruttare la generazione di big data da parte degli utenti finali per il supporto settoriale**. Il fatto che gli utenti finali siano poco qualificati e scarsamente alfabetizzati e si interfaccino con soluzioni spesso molto semplici, non esclude la possibilità di raccolta di dati e di analisi complesse da parte dei fornitori di servizi, come nel caso delle Crop-Specific Mobile Apps.
 
-- **Garantire il controllo di qualità quando i generatori di dati sono utenti scarsamente qualificati**. È necessario adottare misure per garantire che, quando utenti poco qualificati e scarsamente alfabetizzati generano dati o utilizzano un sistema a vantaggio di altri, vi sia un controllo di qualità sufficiente a proteggere gli utenti e i loro beneficiari. Tale verifica può avvenire offline, ad esempio attraverso intermediari, o essere automatizzato, come con hearScreen™.
+- **Garantire il controllo di qualità quando i generatori di dati sono utenti scarsamente qualificati**. È necessario adottare misure per garantire che, quando utenti poco qualificati e scarsamente alfabetizzati generano dati o utilizzano un sistema a vantaggio di altri, vi sia un controllo di qualità sufficiente a proteggere gli utilizzatori e i loro beneficiari. Tale verifica può avvenire offline, ad esempio attraverso intermediari, o essere automatizzato, come con hearScreen™.
 
 
 {% include case_studies_slideshow.html

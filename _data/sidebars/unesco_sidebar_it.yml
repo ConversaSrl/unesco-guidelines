@@ -19,7 +19,7 @@ entries:
   #     url: /tocpage.html
   #     output: pdf
   #     type: frontmatter
-  
+
   - title: Introduzione
     guidelines-subtitle: "Introduction"
     url: it-introduction-00-home.html
@@ -29,14 +29,14 @@ entries:
     - title: "Home"
       url: /it-introduction-00-home.html
       output: web, pdf
-  
+
   - title: Linee Guida
     guidelines-subtitle: "Linee guida per la Progettazione di Soluzioni Digitali Inclusive e lo Sviluppo di Skill Digitali"
     guidelines-overview: /it-guidelines-00-home.html
     output: web, pdf
     folderitems:
 
-    - title: "Progettare con gli utenti, concentrandosi su esigenze e contesti"
+    - title: "Progettare con gli utenti, concentrandosi su esigenze e contesto"
       url: /it-guidelines-01-design.html
       guidelines-step: "01"
       output: web, pdf
@@ -65,5 +65,3 @@ entries:
       url: /it-guidelines-06-monitor.html
       guidelines-step: "06"
       output: web, pdf
-
-    

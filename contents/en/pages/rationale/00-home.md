@@ -3,8 +3,7 @@ permalink: en-rationale-00-home.html
 # guidelines-section: "guidelines"
 # guidelines-background: "background-01.jpg"
 title: "Rationale of the guideline"
-summary: "As context to the guidelines, it is useful to note that despite the many variances across and
-within communities, and while every user is unique, research (Thies, 2015) has revealed general characteristics of how some low-skilled and low-literate people use technology. These traits are common enough to mention and some of them may apply to the particular audience being targeted."
+summary: 
 # guidelines-step: "01"
 # guidelines-next-step: "01"
 # guidelines-next-label: "Go to guidelines"
